@@ -10,10 +10,10 @@ function index(){
     newButton("Catty", 0xDAB6FF, function(){
         $.getJSON("catty.json",load_puppet);
     }, 16,48);
-    newButton("Griotte", 0x80002A, function(){
+    newButton("Griotte (cw: gore)", 0x80002A, function(){
         $.getJSON("griotte.json",load_puppet);
     }, 16,80);
-    newButton("Hariet", 0x7D00FF, function(){
+    newButton("Hariet (cw: gore)", 0x7D00FF, function(){
         $.getJSON("hariet.json",load_puppet);
     }, 16,112);
 }
