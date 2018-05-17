@@ -1,0 +1,35 @@
+{
+    "name": "griotte",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Fan Flutter"
+        },
+        {
+            "name": "scarlet peek",
+            "label": "Peeking Scarlet"
+        },
+        {
+            "name": "scarlet threaten",
+            "label": "Threatening Scarlet"
+        },
+        {
+            "name": "cleaver trick",
+            "label": "Cleaver Trick"
+        },
+        {
+            "name": "headless dance",
+            "label": "Headless Dance"
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "underwear",
+            "label": "Underwear"
+        }
+    ]
+}

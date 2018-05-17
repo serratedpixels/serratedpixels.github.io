@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SerratedPixels Gallery</title>
+</head>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="pixi/pixi.min.js"></script>
+  <script src="pixi/pixi-spine.js"></script>
+  <script src="pixi/pixi-particles.min.js"></script>
+  <script src="index.js"></script>
+<body>
+  <div id="app">
+    
+  </div>
+  
+  <script type="text/javascript">
+    var app = new PIXI.Application({width: 1280, height: 720, resolution: 1});
+    document.body.appendChild(app.view);
+
+    var stage = new PIXI.Container();
+    app.stage.addChild(stage);
+
+    var ticker = new PIXI.ticker.Ticker();
+    ticker.start();
+
+    app.start();
+    index();
+  </script>
+</body>
+</html>

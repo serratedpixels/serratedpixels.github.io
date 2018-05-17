@@ -1,0 +1,31 @@
+{
+    "name": "funtime-foxy",
+    "animations": [
+        {
+            "name": "salvage legs",
+            "label": "Salvage Legs"
+        },
+        {
+            "name": "salvage body",
+            "label": "Salvage Body"
+        },
+        {
+            "name": "reattach head",
+            "label": "Reattach Head"
+        },
+        {
+            "name": "makeover",
+            "label": "Pirate Makeover"
+        },
+        {
+            "name": "lose head",
+            "label": "Head Snatch"
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "catty",
+    "animations": [
+        {
+            "name": "garbage fishing",
+            "label": "Garbage Fishing"
+        },
+        {
+            "name": "good garbage",
+            "label": "Good Garbage"
+        },
+        {
+            "name": "don collar",
+            "label": "Wear Collar"
+        },
+        {
+            "name": "wrong button",
+            "label": "Push Button"
+        },
+        {
+            "name": "garbage head",
+            "label": "Head Fishing"
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "underwear + stockings",
+            "label": "Underwear"
+        }
+    ]
+}
