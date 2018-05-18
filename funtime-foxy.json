@@ -28,11 +28,13 @@
         },
         {
             "name": "sexy dance",
-            "label": "Headless Dance"
+            "label": "Headless Dance",
+            "loop": true
         },
         {
             "name": "sexy dance e",
-            "label": "Head-Holding Dance"
+            "label": "Head-Holding Dance",
+            "loop": true
         },
         {
             "name": "head pop",
