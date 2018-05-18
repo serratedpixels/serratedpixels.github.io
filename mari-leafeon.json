@@ -18,10 +18,6 @@
             "label": "Self-Decap"
         },
         {
-            "name": "half-and-half",
-            "label": "Half-and-Half"
-        },
-        {
             "name": "beheaded",
             "label": "Headless",
             "track": 1
