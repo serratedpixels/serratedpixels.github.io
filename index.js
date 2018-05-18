@@ -195,7 +195,7 @@ function newButton(text,color,func, x, y, align){
     button.on("mouseout",function(){
         button.style.fill = button.savedcolor;
     });
-    button.on("click", func);
+    button.on("pointerdown", func);
 
     if(align == "right"){
         button.x = x - button.width;
