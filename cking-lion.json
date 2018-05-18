@@ -1,0 +1,37 @@
+{
+    "name": "cking-lion",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "head rip",
+            "label": "Head Rip"
+        },
+        {
+            "name": "dismember",
+            "label": "Tear Apart"
+        },
+        {
+            "name": "dismember2",
+            "label": "Tear Apart (Alt.)"
+        },
+        {
+            "name": "bisected",
+            "label": "In Half"
+        }
+    ],
+    "skins": [
+        {
+            "name": "outfit",
+            "label": "Full Outfit"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

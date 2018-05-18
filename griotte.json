@@ -3,7 +3,8 @@
     "animations": [
         {
             "name": "default",
-            "label": "Fan Flutter"
+            "label": "Fan Flutter",
+            "loop": true
         },
         {
             "name": "scarlet peek",
@@ -20,6 +21,26 @@
         {
             "name": "headless dance",
             "label": "Headless Dance"
+        },
+        {
+            "name": "head stomp",
+            "label": "Head Stomp",
+            "loop": true
+        },
+        {
+            "name": "headless sashay",
+            "label": "Equals At Last",
+            "loop": true
+        },
+        {
+            "name": "cleaver trick 2",
+            "label": "Cleaver Play",
+            "loop": true
+        },
+        {
+            "name": "beheaded",
+            "label": "Headless",
+            "track": 1
         }
     ],
     "skins": [
@@ -30,6 +51,16 @@
         {
             "name": "underwear",
             "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        },
+        {
+            "sequence": [1,2,3,4,5],
+            "label": "A Little Revolution"
         }
     ]
 }

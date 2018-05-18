@@ -2,6 +2,10 @@
     "name": "catty",
     "animations": [
         {
+            "name": "default",
+            "label": "Default"
+        },
+        {
             "name": "garbage fishing",
             "label": "Garbage Fishing"
         },
@@ -20,6 +24,16 @@
         {
             "name": "garbage head",
             "label": "Head Fishing"
+        },
+        {
+            "name": "head platter",
+            "label": "Head Platter",
+            "loop": true
+        },
+        {
+            "name": "trash kitty",
+            "label": "Garbage Kitty",
+            "loop": true
         }
     ],
     "skins": [
@@ -30,6 +44,16 @@
         {
             "name": "underwear + stockings",
             "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        },
+        {
+            "sequence": [1,2,3,4,5],
+            "label": "\"It's really GOOD garbage...\""
         }
     ]
 }

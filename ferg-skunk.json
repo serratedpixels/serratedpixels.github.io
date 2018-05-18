@@ -1,0 +1,26 @@
+{
+    "name": "ferg-skunk",
+    "animations": [
+        {
+            "name": "default (head on)",
+            "label": "Default"
+        },
+        {
+            "name": "idle (head off)",
+            "label": "Head Off",
+            "loop": true
+        }
+    ],
+    "skins": [
+        {
+            "name": "dress (w/shoes)",
+            "label": "Full Outfit"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

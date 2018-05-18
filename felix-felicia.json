@@ -1,0 +1,41 @@
+{
+    "name": "felix-felicia",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "draw scalchop",
+            "label": "Scalchop Draw"
+        },
+        {
+            "name": "scalchop decap",
+            "label": "Scalchop Decap"
+        },
+        {
+            "name": "head toss",
+            "label": "Head Toss"
+        },
+        {
+            "name": "head coverup",
+            "label": "Head Coverup"
+        },
+        {
+            "name": "bisected",
+            "label": "In Half",
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

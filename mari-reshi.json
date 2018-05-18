@@ -1,0 +1,46 @@
+{
+    "name": "mari-reshi",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "capture head",
+            "label": "Capture Head"
+        },
+        {
+            "name": "head fling b",
+            "label": "Head Fling"
+        },
+        {
+            "name": "half-and-half",
+            "label": "Half-and-Half"
+        },
+        {
+            "name": "neck rub",
+            "label": "Neck Rub",
+            "loop": true
+        },
+        {
+            "name": "bisected",
+            "label": "In Half"
+        }
+    ],
+    "skins": [
+        {
+            "name": "regular",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "bikini + boots",
+            "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

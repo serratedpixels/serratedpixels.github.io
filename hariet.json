@@ -2,6 +2,10 @@
     "name": "hariet",
     "animations": [
         {
+            "name": "default",
+            "label": "Default"
+        },
+        {
             "name": "introduce",
             "label": "Why hello there!"
         },
@@ -20,6 +24,20 @@
         {
             "name": "head swing",
             "label": "I'm not a toy, you stupid sexy thing!"
+        },
+        {
+            "name": "dizzy head",
+            "label": "Stop the world, I wanna get off!",
+            "loop": true
+        },
+        {
+            "name": "climax",
+            "label": "Back on top!"
+        },
+        {
+            "name": "headless",
+            "label": "Off with my head!",
+            "track": 1
         }
     ],
     "skins": [
@@ -30,6 +48,16 @@
         {
             "name": "lingerie",
             "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        },
+        {
+            "sequence": [1,2,3,4,5,6],
+            "label": "Hats Off To Ya!"
         }
     ]
 }

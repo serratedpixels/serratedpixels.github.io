@@ -2,6 +2,11 @@
     "name": "funtime-foxy",
     "animations": [
         {
+            "name": "sexy dance b",
+            "label": "Sexy Dance",
+            "loop": true
+        },
+        {
             "name": "salvage legs",
             "label": "Salvage Legs"
         },
@@ -20,12 +25,27 @@
         {
             "name": "lose head",
             "label": "Head Snatch"
+        },
+        {
+            "name": "head pop",
+            "label": "Head Pop",
+            "track": 1
         }
     ],
     "skins": [
         {
             "name": "full outfit",
             "label": "Full Outfit"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Sexy Dance (Default)"
+        },
+        {
+            "sequence": [1,2,3,4,5],
+            "label": "Picking Up The Pieces"
         }
     ]
 }

@@ -1,0 +1,58 @@
+{
+    "name": "mari-leafeon",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "lose head 2",
+            "label": "Lose Head"
+        },
+        {
+            "name": "decap combo",
+            "label": "Decap Combo"
+        },
+        {
+            "name": "self decap",
+            "label": "Self-Decap"
+        },
+        {
+            "name": "half-and-half",
+            "label": "Half-and-Half"
+        },
+        {
+            "name": "beheaded",
+            "label": "Headless",
+            "track": 1
+        },
+        {
+            "name": "bisected 2",
+            "label": "In Half"
+        },
+        {
+            "name": "bisected 3",
+            "label": "Half-and-Half"
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "no cape",
+            "label": "Capeless"
+        },
+        {
+            "name": "underwear",
+            "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

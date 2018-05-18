@@ -1,21 +1,98 @@
+var indexData = [
+    {
+        type: "label",
+        name: "Character Requests",
+        color: 0xFFFFFF
+    },
+    {
+        type: "button",
+        name: "Cloth Lioness (by Cloth King)",
+        data: "cking-lion.json",
+        color: 0xFFDE7D
+    },
+    {
+        type: "button",
+        name: "Felicia (by Felixeon)",
+        data: "felix-felicia.json",
+        color: 0xB6B6FF
+    },
+    {
+        type: "button",
+        name: "Leafeon (by Mari)",
+        data: "mari-leafeon.json",
+        color: 0xFFFFB6
+    },
+    {
+        type: "button",
+        name: "Minotte (by Fergzilla)",
+        data: "ferg-skunk.json",
+        color: 0x6CC3D9
+    },
+    {
+        type: "button",
+        name: "Reshiram (by Mari)",
+        data: "mari-reshi.json",
+        color: 0xC2C2C2
+    },
+    {
+        type: "button",
+        name: "Yveltal (by Lucian)",
+        data: "lucian-yvel.json",
+        color: 0xFF0000
+    },
+    {
+        type: "label",
+        name: "Celebrity Cast",
+        color: 0xFFFFFF
+    },
+    {
+        type: "button",
+        name: "Funtime Foxy",
+        data: "funtime-foxy.json",
+        color: 0xFF00FF
+    },
+    {
+        type: "button",
+        name: "Catty",
+        data: "catty.json",
+        color: 0xDAB6FF
+    },
+    {
+        type: "button",
+        name: "Griotte (cw: gore)",
+        data: "griotte.json",
+        color: 0x80002A
+    },
+    {
+        type: "button",
+        name: "Hariet (cw: gore)",
+        data: "hariet.json",
+        color: 0x7D00FF
+    }
+];
+
 function index(){
     stage.removeChildren();
     ticker.destroy();
     ticker = new PIXI.ticker.Ticker();
     ticker.start();
 
-    newButton("Funtime Foxy", 0xFF00FF, function(){
-        $.getJSON("funtime-foxy.json",load_puppet);
-    }, 16,16);
-    newButton("Catty", 0xDAB6FF, function(){
-        $.getJSON("catty.json",load_puppet);
-    }, 16,48);
-    newButton("Griotte (cw: gore)", 0x80002A, function(){
-        $.getJSON("griotte.json",load_puppet);
-    }, 16,80);
-    newButton("Hariet (cw: gore)", 0x7D00FF, function(){
-        $.getJSON("hariet.json",load_puppet);
-    }, 16,112);
+    function setButton(item){
+        var data = item.data;
+        return function(){
+            $.getJSON(data,load_puppet);
+        }
+    }
+
+    var buttontop = 16;
+    for (var item of indexData){
+        if(item.type == "label"){
+            newLabel(item.name, item.color, 16,buttontop); 
+        }else if(item.type == "button"){
+            newButton(item.name, item.color, setButton(item), 32,buttontop); 
+        }
+        buttontop += 32;
+    }
 }
 
 function load_puppet(puppet){
@@ -35,18 +112,54 @@ function load_puppet(puppet){
         animation.position.set(640,700);
         skeleton.setSkinByName(puppet.skins[0].name);
 
-        function playAnim(){
-            animation.state.setEmptyAnimation(0,0);
-            for (var anim of puppet.animations){
-                animation.state.addAnimation(0, anim.name, false, 0);
+        function playSequence(sequence){
+            for(var i=0;i<4;i++){
+                animation.state.setEmptyAnimation(i,0);
+            }
+            for (var i of sequence.sequence){
+                var anim = puppet.animations[i];
+                var track = anim.track || 0;
+                animation.state.addAnimation(track, anim.name, anim.loop, 0);
             }
         }
 
-        playAnim();
+        playSequence(puppet.sequences[0]);
 
-        newButton("Replay", 0xC0C0C0, playAnim, 16,48);
+        var buttontop = 48;
 
-        var buttontop = 704 - (32*puppet.skins.length);
+        function setSequence(sequence){
+            var thissequence = sequence;
+            return function() {
+                playSequence(sequence);
+            }
+        }
+
+        for (var sequence of puppet.sequences){
+            newButton(sequence.label, 0xC0C0C0, setSequence(sequence), 16, buttontop);
+            buttontop += 32;
+        }
+
+        buttontop = 16;
+
+        function setAnim(anim){
+            var thisanim = anim;
+            return function() {
+                var track = anim.track || 0;
+                if(track == 0){
+                    for(var i=0;i<4;i++){
+                        animation.state.setEmptyAnimation(i,0);
+                    }
+                }
+                animation.state.addAnimation(track, thisanim.name, thisanim.loop, 0);
+            }
+        }
+
+        for (var anim of puppet.animations){
+            newButton(anim.label, 0xC0C0C0, setAnim(anim), 1264, buttontop, "right");
+            buttontop += 32;
+        }
+
+        buttontop = 704 - (32*puppet.skins.length);
 
         function setSkin(skin){
             var skinname = skin.name;
@@ -63,8 +176,17 @@ function load_puppet(puppet){
     });
 }
 
-function newButton(text,color,func, x, y){
-    var button = new PIXI.Text(text, {fill: color});
+function newLabel(text,color, x, y){
+    var label = new PIXI.Text(text, {fill: color});
+
+    label.x = x;
+    label.y = y;
+    
+    stage.addChild(label);
+}
+
+function newButton(text,color,func, x, y, align){
+    var button = new PIXI.Text(text, {fill: color, align: align});
     button.interactive = true;
     button.on("mouseover",function(){
         button.savedcolor = button.style.fill;
@@ -75,7 +197,11 @@ function newButton(text,color,func, x, y){
     });
     button.on("click", func);
 
-    button.x = x;
+    if(align == "right"){
+        button.x = x - button.width;
+    }else{
+        button.x = x
+    }
     button.y = y;
     
     stage.addChild(button);
