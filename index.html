@@ -27,6 +27,7 @@
     function resize(){
       var scale = Math.min(window.innerWidth/appwidth,window.innerHeight/appheight);
       app.stage.scale.set(scale,scale);
+      app.stage.x = window.innerWidth/2 - ((appwidth*scale)/2);
       app.renderer.resize(window.innerWidth,window.innerHeight);
     }
 
