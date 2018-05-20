@@ -109,7 +109,8 @@ function load_puppet(puppet){
         var skeleton = animation.skeleton;
         stage.addChild(animation);
 
-        animation.position.set(640,700);
+        animation.position.set(appwidth/2,appheight*0.95);
+        animation.scale.set(1,1);
         skeleton.setSkinByName(puppet.skins[0].name);
 
         function playSequence(sequence){
@@ -155,11 +156,11 @@ function load_puppet(puppet){
         }
 
         for (var anim of puppet.animations){
-            newButton(anim.label, 0xC0C0C0, setAnim(anim), 1264, buttontop, "right");
+            newButton(anim.label, 0xC0C0C0, setAnim(anim), appwidth-16, buttontop, "right");
             buttontop += 32;
         }
 
-        buttontop = 704 - (32*puppet.skins.length);
+        buttontop = (appheight-16) - (32*puppet.skins.length);
 
         function setSkin(skin){
             var skinname = skin.name;

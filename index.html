@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>SerratedPixels Gallery</title>
 </head>
+  <link rel="stylesheet" href="reset.css">
   <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -18,8 +19,22 @@
   </div>
   
   <script type="text/javascript">
-    var app = new PIXI.Application({width: 1280, height: 720, resolution: 1});
+    var appwidth = 1280;
+    var appheight = 720;
+    var app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight, autoResize: true, resolution: devicePixelRatio});
     document.body.appendChild(app.view);
+
+    function resize(){
+      var scale = Math.min(window.innerWidth/appwidth,window.innerHeight/appheight);
+      app.stage.scale.set(scale,scale);
+      app.renderer.resize(window.innerWidth,window.innerHeight);
+    }
+
+    window.onresize = function(event){
+      resize();
+    }
+
+    resize();
 
     var stage = new PIXI.Container();
     app.stage.addChild(stage);
@@ -29,6 +44,7 @@
 
     app.start();
     index();
+    
   </script>
 </body>
 </html>
