@@ -9,6 +9,7 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+  <script src="director.min.js"></script>
   <script src="pixi/pixi.min.js"></script>
   <script src="pixi/pixi-spine.js"></script>
   <script src="pixi/pixi-particles.min.js"></script>
@@ -37,6 +38,19 @@
 
     resize();
 
+    function route_puppet(name){
+      $.getJSON(name+".json",load_puppet)
+      .fail(function(){
+        alert("No puppet by the name \"" + name + "\" exists...yet!");
+        router.setRoute("/");
+      });
+    }
+
+    var routes = {
+      '/': index,
+      '/:name': route_puppet
+    }
+
     var stage = new PIXI.Container();
     app.stage.addChild(stage);
 
@@ -44,8 +58,9 @@
     ticker.start();
 
     app.start();
-    index();
-    
+
+    var router = Router(routes);
+    router.init("/");
   </script>
 </body>
 </html>

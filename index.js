@@ -7,37 +7,37 @@ var indexData = [
     {
         type: "button",
         name: "Cloth Lioness (by Cloth King)",
-        data: "cking-lion.json",
+        data: "cking-lion",
         color: 0xFFDE7D
     },
     {
         type: "button",
         name: "Felicia (by Felixeon)",
-        data: "felix-felicia.json",
+        data: "felix-felicia",
         color: 0xB6B6FF
     },
     {
         type: "button",
         name: "Leafeon (by Mari)",
-        data: "mari-leafeon.json",
+        data: "mari-leafeon",
         color: 0xFFFFB6
     },
     {
         type: "button",
         name: "Minotte (by Fergzilla)",
-        data: "ferg-skunk.json",
+        data: "ferg-skunk",
         color: 0x6CC3D9
     },
     {
         type: "button",
         name: "Reshiram (by Mari)",
-        data: "mari-reshi.json",
+        data: "mari-reshi",
         color: 0xC2C2C2
     },
     {
         type: "button",
         name: "Yveltal (by Lucian)",
-        data: "lucian-yvel.json",
+        data: "lucian-yvel",
         color: 0xFF0000
     },
     {
@@ -48,25 +48,25 @@ var indexData = [
     {
         type: "button",
         name: "Funtime Foxy",
-        data: "funtime-foxy.json",
+        data: "funtime-foxy",
         color: 0xFF00FF
     },
     {
         type: "button",
         name: "Catty",
-        data: "catty.json",
+        data: "catty",
         color: 0xDAB6FF
     },
     {
         type: "button",
         name: "Griotte (cw: gore)",
-        data: "griotte.json",
+        data: "griotte",
         color: 0x80002A
     },
     {
         type: "button",
         name: "Hariet (cw: gore)",
-        data: "hariet.json",
+        data: "hariet",
         color: 0x7D00FF
     }
 ];
@@ -80,7 +80,7 @@ function index(){
     function setButton(item){
         var data = item.data;
         return function(){
-            $.getJSON(data,load_puppet);
+            router.setRoute(data);
         }
     }
 
@@ -98,7 +98,9 @@ function index(){
 function load_puppet(puppet){
     stage.removeChildren();
 
-    newButton("Back", 0xC0C0C0, index, 16,16);
+    newButton("Back", 0xC0C0C0, function(){   
+        router.setRoute("/");
+    }, 16,16);
 
     var loader = new PIXI.loaders.Loader();
 
