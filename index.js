@@ -47,27 +47,33 @@ var indexData = [
     },
     {
         type: "button",
-        name: "Funtime Foxy",
+        name: "Funtime Foxy (from Five Nights at Freddy's)",
         data: "funtime-foxy",
         color: 0xFF00FF
     },
     {
         type: "button",
-        name: "Catty",
+        name: "Catty (from Undertale)",
         data: "catty",
         color: 0xDAB6FF
     },
     {
         type: "button",
-        name: "Griotte (cw: gore)",
+        name: "Griotte (from Armello) (cw: gore)",
         data: "griotte",
         color: 0x80002A
     },
     {
         type: "button",
-        name: "Hariet (cw: gore)",
+        name: "Hariet (from Super Mario Odyssey) (cw: gore)",
         data: "hariet",
         color: 0x7D00FF
+    },
+    {
+        type: "button",
+        name: "Fay (from Starfox 2)",
+        data: "fay",
+        color: 0xFFB6C6
     }
 ];
 
