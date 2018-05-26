@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "RPEPTDiUsfWmIRuUCLYba3VcfW0", "spine": "3.6.52", "width": 500, "height": 620, "images": "" },
+"skeleton": { "hash": "XH5RKCpB2/orumbYKnC0S+wfSqI", "spine": "3.6.52", "width": 500, "height": 620, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 84.5 },
@@ -67,10 +67,10 @@
 	{ "name": "pelvis", "bone": "bottom half", "attachment": "pelvis" },
 	{ "name": "panties", "bone": "bottom half", "attachment": "panties" },
 	{ "name": "pants", "bone": "bottom half", "attachment": "pants" },
-	{ "name": "belt", "bone": "bottom half", "attachment": "belt" },
 	{ "name": "waist jacket", "bone": "waist", "attachment": "waist jacket" },
 	{ "name": "waist", "bone": "waist", "attachment": "waist" },
 	{ "name": "waist top", "bone": "waist", "attachment": "waist top" },
+	{ "name": "belt", "bone": "bottom half", "attachment": "belt" },
 	{ "name": "left hand", "bone": "left hand", "attachment": "left hand (down)" },
 	{ "name": "left lower arm", "bone": "left lower arm", "attachment": "left lower arm" },
 	{ "name": "left lower sleeve", "bone": "left lower arm", "attachment": "left lower sleeve" },
@@ -1941,9 +1941,9 @@
 			{
 				"time": 0,
 				"offsets": [
-					{ "slot": "bow", "offset": 19 },
-					{ "slot": "left ear", "offset": 19 },
-					{ "slot": "right ear", "offset": 19 }
+					{ "slot": "bow", "offset": 18 },
+					{ "slot": "left ear", "offset": 18 },
+					{ "slot": "right ear", "offset": 18 }
 				]
 			}
 		]
