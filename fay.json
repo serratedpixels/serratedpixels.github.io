@@ -1,0 +1,89 @@
+{
+    "name": "fay",
+    "animations": [
+        {
+            "name": "idle",
+            "label": "Default",
+            "loop": true
+        },
+        {
+            "name": "blink",
+            "label": "Blink",
+            "track": 1,
+            "loop": true
+        },
+        {
+            "name": "strike pose",
+            "label": "Happy to See You"
+        },
+        {
+            "name": "shoot target",
+            "label": "Target Practice"
+        },
+        {
+            "name": "shot bounce",
+            "label": "Didn't See THAT Coming..."
+        },
+        {
+            "name": "headless wobble",
+            "label": "I Feel So Lightheaded..."
+        },
+        {
+            "name": "head shot",
+            "label": "Watch Where You Point That Thing!"
+        },
+        {
+            "name": "rapid fire",
+            "label": "Can't We Talk About This?",
+            "loop": true
+        },
+        {
+            "name": "wobble",
+            "label": "Stop The World, I Wanna Get Off...",
+            "loop": true
+        },
+        {
+            "name": "head sit",
+            "label": "Who's A Good Girl? I Am!",
+            "loop": true
+        },
+        {
+            "name": "head pull",
+            "label": "Wanna See A Trick?"
+        },
+        {
+            "name": "headless",
+            "label": "Headless",
+            "track": 1
+        },
+        {
+            "name": "bisected",
+            "label": "In Half",
+            "track": 1
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "no jacket",
+            "label": "No Jacket"
+        },
+        {
+            "name": "lingerie + shoes",
+            "label": "Underwear"
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        },
+        {
+            "sequence": [1,2,3,4,5,6,7],
+            "label": "Fay's Shooting Gallery"
+        }
+    ]
+}
