@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "4Q8lt/o3k5M7anhl89meKKrL8ok", "spine": "3.6.52", "width": 500, "height": 620, "images": "" },
+"skeleton": { "hash": "b4YLVjdVm8pbvcN8UK5lm9TUDX4", "spine": "3.6.52", "width": 500, "height": 620, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 84.5 },
@@ -498,6 +498,11 @@
 	"bisected": {
 		"bones": {
 			"torso center": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"head center": {
 				"scale": [
 					{ "time": 0, "x": 0, "y": 0 }
 				]
