@@ -34,6 +34,11 @@
             "name": "trash kitty",
             "label": "Garbage Kitty",
             "loop": true
+        },
+        {
+            "name": "head pop",
+            "label": "Head Pop",
+            "track": 1
         }
     ],
     "skins": [
