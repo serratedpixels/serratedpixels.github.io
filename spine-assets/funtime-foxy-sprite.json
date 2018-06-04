@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "VQsmUtq7NC25A4Iuu3muxRgDdRQ", "spine": "3.6.52", "width": 692.19, "height": 716.02, "images": "" },
+"skeleton": { "hash": "KKMH6w0CAA38DCuw92TAQpcVtAk", "spine": "3.6.52", "width": 692.19, "height": 716.02, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 78.5 },
@@ -527,8 +527,7 @@
 					{ "time": 0.8333, "angle": 140.57 }
 				],
 				"translate": [
-					{ "time": 0, "x": 57.85, "y": -35.59, "curve": "stepped" },
-					{ "time": 0.1667, "x": 57.85, "y": -35.59 },
+					{ "time": 0, "x": 57.85, "y": -35.59 },
 					{ "time": 0.5, "x": -120.8, "y": -56.52 },
 					{ "time": 0.6667, "x": -104.99, "y": -61.25 },
 					{ "time": 0.8333, "x": -173.36, "y": -70.72 }
@@ -547,6 +546,99 @@
 			"left ear": {
 				"rotate": [
 					{ "time": 0.1667, "angle": 17.58 }
+				]
+			}
+		},
+		"transform": {
+			"head handle": [
+				{ "time": 0, "rotateMix": 0, "translateMix": 0, "scaleMix": 0, "shearMix": 0 },
+				{ "time": 0.5, "scaleMix": 0, "shearMix": 0 }
+			]
+		}
+	},
+	"head pop alt": {
+		"slots": {
+			"left eyelid": {
+				"attachment": [
+					{ "time": 0.1, "name": "left eyelid (wide)" },
+					{ "time": 1.0333, "name": "left eyelid (half-open)" },
+					{ "time": 1.0667, "name": "left eyelid (closed)" },
+					{ "time": 1.1, "name": "left eyelid (half-open)" },
+					{ "time": 1.1333, "name": "left eyelid (wide)" },
+					{ "time": 1.1667, "name": "left eyelid (half-open)" },
+					{ "time": 1.2, "name": "left eyelid (closed)" },
+					{ "time": 1.2333, "name": "left eyelid (half-open)" },
+					{ "time": 1.2667, "name": "left eyelid (wide)" }
+				]
+			},
+			"right eyelid": {
+				"attachment": [
+					{ "time": 0.1, "name": "right eyelid (wide)" },
+					{ "time": 1.0333, "name": "right eyelid (half-open)" },
+					{ "time": 1.0667, "name": "right eyelid (closed)" },
+					{ "time": 1.1, "name": "right eyelid (half-open)" },
+					{ "time": 1.1333, "name": "right eyelid (wide)" },
+					{ "time": 1.1667, "name": "right eyelid (half-open)" },
+					{ "time": 1.2, "name": "right eyelid (closed)" },
+					{ "time": 1.2333, "name": "right eyelid (half-open)" },
+					{ "time": 1.2667, "name": "right eyelid (wide)" }
+				]
+			},
+			"upper lip": {
+				"attachment": [
+					{ "time": 0.1, "name": "upper lip (neutral)" }
+				]
+			}
+		},
+		"bones": {
+			"head handle": {
+				"rotate": [
+					{ "time": 0, "angle": -50.42 },
+					{ "time": 0.1667, "angle": 38.83 },
+					{ "time": 0.7667, "angle": 43.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 57.85, "y": -35.59 },
+					{ "time": 0.5, "x": -119.71, "y": -56.52 },
+					{ "time": 0.6667, "x": -104.99, "y": -64.38 },
+					{ "time": 0.7667, "x": -121.15, "y": -69.73 }
+				]
+			},
+			"lower lip": {
+				"translate": [
+					{ "time": 0.1667, "x": -3.39, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": -3.39, "y": 0 },
+					{ "time": 1.2333, "x": -1.47, "y": 0 }
+				]
+			},
+			"right ear": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -19.43, "curve": "stepped" },
+					{ "time": 1, "angle": -19.43 },
+					{ "time": 1.1, "angle": 13.79, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 13.79 },
+					{ "time": 1.3333, "angle": -19.43 }
+				]
+			},
+			"left ear": {
+				"rotate": [
+					{ "time": 0.1667, "angle": 17.58, "curve": "stepped" },
+					{ "time": 1, "angle": 17.58 },
+					{ "time": 1.1, "angle": -14.98, "curve": "stepped" },
+					{ "time": 1.2333, "angle": -14.98 },
+					{ "time": 1.3333, "angle": 17.58 }
+				]
+			},
+			"left pupil": {
+				"translate": [
+					{ "time": 0.1667, "x": -1.47, "y": 0.81 },
+					{ "time": 0.5, "x": 2.12, "y": 0.37 }
+				]
+			},
+			"right pupil": {
+				"translate": [
+					{ "time": 0.1667, "x": -1.47, "y": 0.81 },
+					{ "time": 0.5, "x": 2.12, "y": 0.37 }
 				]
 			}
 		},

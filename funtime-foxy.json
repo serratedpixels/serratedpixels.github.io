@@ -40,6 +40,11 @@
             "name": "head pop",
             "label": "Head Pop",
             "track": 1
+        },
+        {
+            "name": "head pop alt",
+            "label": "Head Pop (Alternate)",
+            "track": 1
         }
     ],
     "skins": [
