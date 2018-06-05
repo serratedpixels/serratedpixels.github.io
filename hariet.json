@@ -38,6 +38,11 @@
             "name": "headless",
             "label": "Off with my head!",
             "track": 1
+        },
+        {
+            "name": "head pop",
+            "label": "Head Pop",
+            "track": 1
         }
     ],
     "skins": [
