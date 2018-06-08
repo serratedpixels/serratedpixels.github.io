@@ -39,7 +39,10 @@ function init(){
             route_puppet(name);
           }
       },
-      '/:name': route_puppet
+      '/:name': function(name){
+          secret = false;
+          route_puppet(name);
+        },
     }
 
     router = Router(routes);
