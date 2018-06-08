@@ -1,81 +1,60 @@
-var indexData = [
-    {
-        type: "label",
-        name: "Character Requests",
-        color: 0xFFFFFF
-    },
-    {
-        type: "button",
-        name: "Cloth Lioness (by Cloth King)",
-        data: "cking-lion",
-        color: 0xFFDE7D
-    },
-    {
-        type: "button",
-        name: "Felicia (by Felixeon)",
-        data: "felix-felicia",
-        color: 0xB6B6FF
-    },
-    {
-        type: "button",
-        name: "Leafeon (by Mari)",
-        data: "mari-leafeon",
-        color: 0xFFFFB6
-    },
-    {
-        type: "button",
-        name: "Minotte (by Fergzilla)",
-        data: "ferg-skunk",
-        color: 0x6CC3D9
-    },
-    {
-        type: "button",
-        name: "Reshiram (by Mari)",
-        data: "mari-reshi",
-        color: 0xC2C2C2
-    },
-    {
-        type: "button",
-        name: "Yveltal (by Lucian)",
-        data: "lucian-yvel",
-        color: 0xFF0000
-    },
-    {
-        type: "label",
-        name: "Celebrity Cast",
-        color: 0xFFFFFF
-    },
-    {
-        type: "button",
-        name: "Funtime Foxy (from Five Nights at Freddy's)",
-        data: "funtime-foxy",
-        color: 0xFF00FF
-    },
-    {
-        type: "button",
-        name: "Catty (from Undertale)",
-        data: "catty",
-        color: 0xDAB6FF
-    },
-    {
-        type: "button",
-        name: "Griotte (from Armello) (cw: gore)",
-        data: "griotte",
-        color: 0x80002A
-    },
-    {
-        type: "button",
-        name: "Hariet (from Super Mario Odyssey) (cw: gore)",
-        data: "hariet",
-        color: 0x7D00FF
-    },
-    {
-        type: "button",
-        name: "Fay (from Starfox 2)",
-        data: "fay",
-        color: 0xFFB6C6
+var appwidth = 1280;
+var appheight = 720;
+var indexData = {};
+var stage = new PIXI.Container();
+var ticker = new PIXI.ticker.Ticker();
+var router = null;
+var secret = false;
+
+function init(){
+    var app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight, autoResize: true, resolution: devicePixelRatio});
+    document.body.appendChild(app.view);
+
+    function resize(){
+      var scale = Math.min(window.innerWidth/appwidth,window.innerHeight/appheight);
+      app.stage.scale.set(scale,scale);
+      app.stage.x = window.innerWidth/2 - ((appwidth*scale)/2);
+      app.renderer.resize(window.innerWidth,window.innerHeight);
     }
-];
+
+    window.onresize = function(event){
+      resize();
+    }
+
+    resize();
+
+    function route_puppet(name){
+      $.getJSON(name+".json",load_puppet)
+      .fail(function(){
+        alert("No puppet by the name \"" + name + "\" exists...yet!");
+        router.setRoute("/");
+      });
+    }
+
+    var routes = {
+      '/': index,
+      '/secret': {
+          '/:name': function(name){
+            secret = true;
+            route_puppet(name);
+          }
+      },
+      '/:name': route_puppet
+    }
+
+    router = Router(routes);
+    app.stage.addChild(stage);
+
+    ticker.start();
+
+    app.start();
+
+    $.getJSON("index.json", function(data){
+        console.log("!!!");
+        indexData = data.data;
+        router.init("/");
+    });
+}
 
 function index(){
     stage.removeChildren();
@@ -99,6 +78,15 @@ function index(){
         }
         buttontop += 32;
     }
+}
+
+function getLength(list){
+    var total = 0;
+    for(item of list){
+        if(item.secret && !secret) continue;
+        total += 1;
+    }
+    return total;
 }
 
 function load_puppet(puppet){
@@ -144,6 +132,7 @@ function load_puppet(puppet){
         }
 
         for (var sequence of puppet.sequences){
+            if(sequence.secret && !secret) continue;
             newButton(sequence.label, 0xC0C0C0, setSequence(sequence), 16, buttontop);
             buttontop += 32;
         }
@@ -164,11 +153,12 @@ function load_puppet(puppet){
         }
 
         for (var anim of puppet.animations){
+            if(anim.secret && !secret) continue;
             newButton(anim.label, 0xC0C0C0, setAnim(anim), appwidth-16, buttontop, "right");
             buttontop += 32;
         }
 
-        buttontop = (appheight-16) - (32*puppet.skins.length);
+        buttontop = (appheight-16) - (32*getLength(puppet.skins));
 
         function setSkin(skin){
             var skinname = skin.name;
@@ -179,6 +169,7 @@ function load_puppet(puppet){
         }
 
         for (var skin of puppet.skins){
+            if(skin.secret && !secret) continue;
             newButton(skin.label, 0xC0C0C0, setSkin(skin), 16, buttontop);
             buttontop += 32;
         }

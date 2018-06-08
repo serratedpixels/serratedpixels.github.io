@@ -61,6 +61,12 @@
             "name": "bisected",
             "label": "In Half",
             "track": 1
+        },
+        {
+            "name": "bloody rip",
+            "label": "Betrayal!",
+            "track": 1,
+            "secret": true
         }
     ],
     "skins": [
@@ -75,6 +81,22 @@
         {
             "name": "lingerie + shoes",
             "label": "Underwear"
+        },
+        {
+            "name": "topless",
+            "label": "Topless"
+        },
+        {
+            "name": "topless + no jacket",
+            "label": "Topless (w/o Jacket)"
+        },
+        {
+            "name": "topless + lingerie + shoes",
+            "label": "Topless Underwear"
+        },
+        {
+            "name": "nude",
+            "label": "Nude"
         }
     ],
     "sequences": [

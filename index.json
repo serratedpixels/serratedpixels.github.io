@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "type": "label",
+            "name": "Character Requests",
+            "color": "0xFFFFFF"
+        },
+        {
+            "type": "button",
+            "name": "Cloth Lioness (by Cloth King)",
+            "data": "cking-lion",
+            "color": "0xFFDE7D"
+        },
+        {
+            "type": "button",
+            "name": "Felicia (by Felixeon)",
+            "data": "felix-felicia",
+            "color": "0xB6B6FF"
+        },
+        {
+            "type": "button",
+            "name": "Leafeon (by Mari)",
+            "data": "mari-leafeon",
+            "color": "0xFFFFB6"
+        },
+        {
+            "type": "button",
+            "name": "Minotte (by Fergzilla)",
+            "data": "ferg-skunk",
+            "color": "0x6CC3D9"
+        },
+        {
+            "type": "button",
+            "name": "Reshiram (by Mari)",
+            "data": "mari-reshi",
+            "color": "0xC2C2C2"
+        },
+        {
+            "type": "button",
+            "name": "Yveltal (by Lucian)",
+            "data": "lucian-yvel",
+            "color": "0xFF0000"
+        },
+        {
+            "type": "label",
+            "name": "Celebrity Cast",
+            "color": "0xFFFFFF"
+        },
+        {
+            "type": "button",
+            "name": "Funtime Foxy (from Five Nights at Freddy's)",
+            "data": "funtime-foxy",
+            "color": "0xFF00FF"
+        },
+        {
+            "type": "button",
+            "name": "Catty (from Undertale)",
+            "data": "catty",
+            "color": "0xDAB6FF"
+        },
+        {
+            "type": "button",
+            "name": "Griotte (from Armello) (cw: gore)",
+            "data": "griotte",
+            "color": "0x80002A"
+        },
+        {
+            "type": "button",
+            "name": "Hariet (from Super Mario Odyssey) (cw: gore)",
+            "data": "hariet",
+            "color": "0x7D00FF"
+        },
+        {
+            "type": "button",
+            "name": "Fay (from Starfox 2)",
+            "data": "fay",
+            "color": "0xFFB6C6"
+        }
+    ]
+}

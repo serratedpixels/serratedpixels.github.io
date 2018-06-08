@@ -20,47 +20,7 @@
   </div>
   
   <script type="text/javascript">
-    var appwidth = 1280;
-    var appheight = 720;
-    var app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight, autoResize: true, resolution: devicePixelRatio});
-    document.body.appendChild(app.view);
-
-    function resize(){
-      var scale = Math.min(window.innerWidth/appwidth,window.innerHeight/appheight);
-      app.stage.scale.set(scale,scale);
-      app.stage.x = window.innerWidth/2 - ((appwidth*scale)/2);
-      app.renderer.resize(window.innerWidth,window.innerHeight);
-    }
-
-    window.onresize = function(event){
-      resize();
-    }
-
-    resize();
-
-    function route_puppet(name){
-      $.getJSON(name+".json",load_puppet)
-      .fail(function(){
-        alert("No puppet by the name \"" + name + "\" exists...yet!");
-        router.setRoute("/");
-      });
-    }
-
-    var routes = {
-      '/': index,
-      '/:name': route_puppet
-    }
-
-    var stage = new PIXI.Container();
-    app.stage.addChild(stage);
-
-    var ticker = new PIXI.ticker.Ticker();
-    ticker.start();
-
-    app.start();
-
-    var router = Router(routes);
-    router.init("/");
+    init();
   </script>
 </body>
 </html>

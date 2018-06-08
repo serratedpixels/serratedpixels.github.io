@@ -74,6 +74,13 @@ face
   orig: 25, 24
   offset: 0, 0
   index: -1
+gore
+  rotate: true
+  xy: 182, 2
+  size: 1, 7
+  orig: 1, 7
+  offset: 0, 0
+  index: -1
 jacket back
   rotate: false
   xy: 77, 39
@@ -306,15 +313,15 @@ left lower sleeve
   offset: 0, 0
   index: -1
 left pupil (normal)
-  rotate: true
-  xy: 222, 13
+  rotate: false
+  xy: 201, 8
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 left pupil (tiny)
-  rotate: false
-  xy: 229, 12
+  rotate: true
+  xy: 201, 2
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
@@ -396,6 +403,13 @@ lower neck
   orig: 9, 9
   offset: 0, 0
   index: -1
+lower neck (bloody)
+  rotate: false
+  xy: 171, 4
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
 panties
   rotate: false
   xy: 25, 2
@@ -433,7 +447,7 @@ right eyelid (angry)
   index: -1
 right eyelid (closed)
   rotate: false
-  xy: 171, 5
+  xy: 182, 5
   size: 9, 8
   orig: 9, 8
   offset: 0, 0
@@ -453,22 +467,22 @@ right eyelid (half-open)
   offset: 0, 0
   index: -1
 right eyelid (happy)
-  rotate: false
-  xy: 182, 5
+  rotate: true
+  xy: 195, 15
   size: 9, 8
   orig: 9, 8
   offset: 0, 0
   index: -1
 right eyelid (open)
-  rotate: true
-  xy: 195, 15
+  rotate: false
+  xy: 223, 18
   size: 9, 6
   orig: 9, 6
   offset: 0, 0
   index: -1
 right eyelid (wide)
-  rotate: true
-  xy: 203, 17
+  rotate: false
+  xy: 234, 20
   size: 9, 6
   orig: 9, 6
   offset: 0, 0
@@ -572,15 +586,15 @@ right lower sleeve
   offset: 0, 0
   index: -1
 right pupil (normal)
-  rotate: false
-  xy: 233, 19
+  rotate: true
+  xy: 223, 12
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 right pupil (tiny)
   rotate: false
-  xy: 235, 12
+  xy: 230, 11
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
@@ -606,9 +620,16 @@ scarf
   orig: 17, 11
   offset: 0, 0
   index: -1
-suit collar
+spine
   rotate: false
-  xy: 222, 19
+  xy: 195, 54
+  size: 3, 7
+  orig: 3, 7
+  offset: 0, 0
+  index: -1
+suit collar
+  rotate: true
+  xy: 205, 17
   size: 9, 5
   orig: 9, 5
   offset: 0, 0
@@ -671,7 +692,7 @@ upper lip (smile)
   index: -1
 upper neck
   rotate: false
-  xy: 211, 16
+  xy: 212, 16
   size: 9, 8
   orig: 9, 8
   offset: 0, 0
