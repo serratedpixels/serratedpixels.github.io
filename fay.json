@@ -121,7 +121,8 @@
         },
         {
             "sequence": [13,14],
-            "label": "Fay's Body Betrayal"
+            "label": "Fay's Body Betrayal",
+            "secret": true
         }
     ]
 }
