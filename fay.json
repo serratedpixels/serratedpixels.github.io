@@ -67,6 +67,13 @@
             "label": "Betrayal!",
             "track": 1,
             "secret": true
+        },
+        {
+            "name": "victory laugh",
+            "label": "Victory!",
+            "track": 1,
+            "loop": true,
+            "secret": true
         }
     ],
     "skins": [
@@ -111,6 +118,10 @@
         {
             "sequence": [2,3,4,5,6,7],
             "label": "Fay's Shooting Gallery"
+        },
+        {
+            "sequence": [13,14],
+            "label": "Fay's Body Betrayal"
         }
     ]
 }
