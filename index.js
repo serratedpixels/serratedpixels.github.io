@@ -50,7 +50,6 @@ function init(){
     app.start();
 
     $.getJSON("index.json", function(data){
-        console.log("!!!");
         indexData = data.data;
         router.init("/");
     });

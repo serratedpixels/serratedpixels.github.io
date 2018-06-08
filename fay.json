@@ -84,19 +84,23 @@
         },
         {
             "name": "topless",
-            "label": "Topless"
+            "label": "Topless",
+            "secret": true
         },
         {
             "name": "topless + no jacket",
-            "label": "Topless (w/o Jacket)"
+            "label": "Topless (w/o Jacket)",
+            "secret": true
         },
         {
             "name": "topless + lingerie + shoes",
-            "label": "Topless Underwear"
+            "label": "Topless Underwear",
+            "secret": true
         },
         {
             "name": "nude",
-            "label": "Nude"
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [
