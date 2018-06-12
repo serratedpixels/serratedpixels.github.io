@@ -31,6 +31,12 @@
         },
         {
             "type": "button",
+            "name": "Miranda (by Mari)",
+            "data": "mari-fennec",
+            "color": "0x7BABF3"
+        },
+        {
+            "type": "button",
             "name": "Reshiram (by Mari)",
             "data": "mari-reshi",
             "color": "0xC2C2C2"
