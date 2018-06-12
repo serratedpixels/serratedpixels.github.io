@@ -1,0 +1,48 @@
+{
+    "name": "mari-fennec",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default",
+            "loop": true
+        },
+        {
+            "name": "head roll",
+            "label": "Head Roll"
+        },
+        {
+            "name": "head pull",
+            "label": "Head Pull"
+        },
+        {
+            "name": "head sit",
+            "label": "Head Pet",
+            "loop": true
+        }
+    ],
+    "skins": [
+        {
+            "name": "default outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "full outfit",
+            "label": "Full Outfit + Shoes"
+        },
+        {
+            "name": "underwear",
+            "label": "Underwear"
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

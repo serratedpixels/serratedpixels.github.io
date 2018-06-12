@@ -175,6 +175,62 @@ function load_puppet(puppet){
             newButton(skin.label, 0xC0C0C0, setSkin(skin), 16, buttontop);
             buttontop += 32;
         }
+
+        var data = null;
+        var dragging = false;
+        var offset = {x:0,y:0};
+
+        //stage.interactive = true;
+        stage.on("pointerdown",function(event){
+            var mousepos = event.data.getLocalPosition(this);
+            mousepos.x -= animation.x;
+            mousepos.y -= animation.y;
+            var head = skeleton.findBone("head center");
+            var headpos = head.localToWorld({x:0,y:0});
+            var dist = Math.abs(Math.sqrt(Math.pow(mousepos.x-headpos.x,2)+Math.pow(mousepos.y-headpos.y,2)));
+            if(dist < 64){
+                offset.x = mousepos.x-headpos.x;
+                offset.y = mousepos.y-headpos.y;
+                data = event.data;
+                dragging = true;
+                var headSocket = skeleton.findTransformConstraint("head socket");
+                headSocket.translateMix = 0;
+                headSocket.rotateMix = 0;
+                headSocket.scaleMix = 0;
+            }
+        });
+        stage.on("pointermove",function(event){
+            if(dragging){
+                var head = skeleton.findBone("head center");
+                var mousepos = event.data.getLocalPosition(this);
+                mousepos.x -= animation.x;
+                mousepos.y -= animation.y;
+                newpos = head.parent.worldToLocal({x:mousepos.x-offset.x,y:mousepos.y-offset.y});
+                head.x = newpos.x;
+                head.y = newpos.y;
+                skeleton.updateWorldTransform();
+            }
+        });
+
+        function onDragEnd(event){
+            dragging = false;
+            data = null;
+            var mousepos = event.data.getLocalPosition(this);
+            mousepos.x -= animation.x;
+            mousepos.y -= animation.y;
+            var head = skeleton.findBone("head socket");
+            var headpos = head.localToWorld({x:0,y:0});
+            var dist = Math.abs(Math.sqrt(Math.pow(mousepos.x-headpos.x,2)+Math.pow(mousepos.y-headpos.y,2)));
+            if(dist < 64){
+                var headSocket = skeleton.findTransformConstraint("head socket");
+                headSocket.translateMix = 1;
+                headSocket.rotateMix = 1;
+                headSocket.scaleMix = 1;
+            }  
+        }
+
+        stage.on("pointerup",onDragEnd);
+        stage.on("pointerupoutside",onDragEnd);
     });
 }
 
