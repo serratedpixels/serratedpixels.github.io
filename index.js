@@ -231,6 +231,21 @@ function load_puppet(puppet){
 
         stage.on("pointerup",onDragEnd);
         stage.on("pointerupoutside",onDragEnd);
+
+        var paused = false;
+        function playPause(){
+            paused = !paused;
+            if(paused){
+                this.text = "Play";
+                animation.state.timeScale = 0;
+            }else{
+                this.text = "Pause";
+                animation.state.timeScale = 1;
+            }
+            this.x = (appwidth-16)-this.width;
+        }
+
+        newButton("Pause", 0xC0C0C0, playPause, appwidth-16, appheight-48, "right");
     });
 }
 
