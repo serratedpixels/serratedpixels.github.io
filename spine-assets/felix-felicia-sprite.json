@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "H9U29ey6ATuWez0Udz73JWtt0XM", "spine": "3.6.52", "width": 492.01, "height": 592, "images": "" },
+"skeleton": { "hash": "MshWYKO6TtZ6CiAb+xrPudgkcuQ", "spine": "3.6.52", "width": 492.01, "height": 584, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 74.5 },
@@ -153,20 +153,11 @@
 		"chest": {
 			"chest": { "x": 6, "rotation": 90, "width": 29, "height": 15 }
 		},
-		"chest top": {
-			"chest top": { "x": 6, "rotation": 90, "width": 29, "height": 15 }
-		},
 		"eye whites": {
 			"eye whites": { "x": 10, "rotation": -90, "width": 15, "height": 6 }
 		},
 		"face": {
 			"face": { "x": 9.5, "rotation": -90, "width": 27, "height": 23 }
-		},
-		"jeans": {
-			"jeans": { "x": 3, "rotation": 90, "width": 25, "height": 13 }
-		},
-		"left boot": {
-			"left boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
 		},
 		"left ear": {
 			"left ear": { "x": 4.95, "y": 2.83, "rotation": -45, "width": 12, "height": 22 }
@@ -194,9 +185,6 @@
 		"left lower arm": {
 			"left lower arm": { "x": 8, "y": 0.5, "width": 19, "height": 8 }
 		},
-		"left lower jeans": {
-			"left lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
-		},
 		"left lower leg": {
 			"left lower leg": { "x": 14.5, "rotation": 90, "width": 11, "height": 34 }
 		},
@@ -210,9 +198,6 @@
 		"left upper arm": {
 			"left upper arm": { "x": 7, "y": 0.5, "width": 21, "height": 10 }
 		},
-		"left upper jeans": {
-			"left upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
-		},
 		"left upper leg": {
 			"left upper leg": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
 		},
@@ -225,14 +210,8 @@
 		"lower neck": {
 			"lower neck": { "x": 4, "rotation": -90, "width": 11, "height": 11 }
 		},
-		"panties": {
-			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
-		},
 		"pelvis": {
 			"pelvis": { "x": -0.5, "rotation": 90, "width": 25, "height": 20 }
-		},
-		"right boot": {
-			"right boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
 		},
 		"right ear": {
 			"right ear": { "x": 4.95, "y": -2.83, "rotation": -135, "width": 12, "height": 22 }
@@ -260,9 +239,6 @@
 		"right lower arm": {
 			"right lower arm": { "x": 8, "y": -0.5, "rotation": -180, "width": 19, "height": 8 }
 		},
-		"right lower jeans": {
-			"right lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
-		},
 		"right lower leg": {
 			"right lower leg": { "x": 14.5, "rotation": 90, "width": 11, "height": 34 }
 		},
@@ -275,9 +251,6 @@
 		},
 		"right upper arm": {
 			"right upper arm": { "x": 7, "y": -0.5, "rotation": -180, "width": 21, "height": 10 }
-		},
-		"right upper jeans": {
-			"right upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
 		},
 		"right upper leg": {
 			"right upper leg": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
@@ -303,9 +276,6 @@
 		"torso": {
 			"torso": { "x": 9, "rotation": -90, "width": 21, "height": 19 }
 		},
-		"torso top": {
-			"torso top": { "x": 13.5, "rotation": -90, "width": 19, "height": 8 }
-		},
 		"upper lip": {
 			"upper lip (frown)": { "x": 3, "rotation": -90, "width": 7, "height": 4 },
 			"upper lip (neutral)": { "x": 3.5, "rotation": -90, "width": 7, "height": 3 },
@@ -316,12 +286,75 @@
 		},
 		"waist": {
 			"waist": { "x": 5, "rotation": -90, "width": 19, "height": 15 }
+		}
+	},
+	"full outfit": {
+		"chest top": {
+			"chest top": { "x": 6, "rotation": 90, "width": 29, "height": 15 }
+		},
+		"jeans": {
+			"jeans": { "x": 3, "rotation": 90, "width": 25, "height": 13 }
+		},
+		"left boot": {
+			"left boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
+		},
+		"left lower jeans": {
+			"left lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
+		},
+		"left upper jeans": {
+			"left upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
+		},
+		"panties": {
+			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+		},
+		"right boot": {
+			"right boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
+		},
+		"right lower jeans": {
+			"right lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
+		},
+		"right upper jeans": {
+			"right upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
+		},
+		"torso top": {
+			"torso top": { "x": 13.5, "rotation": -90, "width": 19, "height": 8 }
 		},
 		"waist top": {
 			"waist top": { "x": 6, "rotation": -90, "width": 17, "height": 7 }
 		}
 	},
-	"full outfit": {}
+	"nude": {},
+	"panties": {
+		"panties": {
+			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+		}
+	},
+	"topless": {
+		"jeans": {
+			"jeans": { "x": 3, "rotation": 90, "width": 25, "height": 13 }
+		},
+		"left boot": {
+			"left boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
+		},
+		"left lower jeans": {
+			"left lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
+		},
+		"left upper jeans": {
+			"left upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
+		},
+		"panties": {
+			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+		},
+		"right boot": {
+			"right boot": { "x": 7.5, "rotation": -270, "width": 9, "height": 20 }
+		},
+		"right lower jeans": {
+			"right lower jeans": { "x": 13, "rotation": 90, "width": 11, "height": 31 }
+		},
+		"right upper jeans": {
+			"right upper jeans": { "x": 8.5, "rotation": 90, "width": 15, "height": 32 }
+		}
+	}
 },
 "animations": {
 	"bisected": {

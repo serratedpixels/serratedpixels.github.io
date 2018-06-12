@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "KKMH6w0CAA38DCuw92TAQpcVtAk", "spine": "3.6.52", "width": 692.19, "height": 716.02, "images": "" },
+"skeleton": { "hash": "3L6A64TvSRdTh3mSt2I6rvU/lqk", "spine": "3.6.52", "width": 692.19, "height": 716.02, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 78.5 },
@@ -491,10 +491,23 @@
 			"waist top": { "x": 5.5, "rotation": -90, "width": 19, "height": 6 }
 		}
 	},
-	"nude": {},
+	"nude": {
+		"left boot foot": {
+			"left boot foot": { "x": 7.5, "scaleX": -1, "rotation": -270, "width": 11, "height": 20 }
+		},
+		"right boot foot": {
+			"right boot foot": { "x": 7.5, "rotation": -270, "width": 11, "height": 20 }
+		}
+	},
 	"topless": {
+		"left boot foot": {
+			"left boot foot": { "x": 7.5, "scaleX": -1, "rotation": -270, "width": 11, "height": 20 }
+		},
 		"panties": {
 			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+		},
+		"right boot foot": {
+			"right boot foot": { "x": 7.5, "rotation": -270, "width": 11, "height": 20 }
 		}
 	}
 },

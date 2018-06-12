@@ -1,0 +1,53 @@
+{
+    "name": "lucian-yvel",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "tail snatch",
+            "label": "Tail Snatch"
+        },
+        {
+            "name": "tail rip",
+            "label": "Tail Rip"
+        },
+        {
+            "name": "headless",
+            "label": "Headless",
+            "track": 1
+        }
+    ],
+    "skins": [
+        {
+            "name": "full outfit",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "underwear",
+            "label": "Underwear"
+        },
+        {
+            "name": "topless",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "topless underwear",
+            "label": "Topless Underwear",
+            "secret": true
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

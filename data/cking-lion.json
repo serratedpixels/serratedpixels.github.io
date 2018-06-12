@@ -26,6 +26,21 @@
         {
             "name": "outfit",
             "label": "Full Outfit"
+        },
+        {
+            "name": "topless",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "panties",
+            "label": "Topless Underwear",
+            "secret": true
+        },
+        {
+            "name": "socks & shoes",
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [

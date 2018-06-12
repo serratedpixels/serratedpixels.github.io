@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "tHx/fACJzNuHwCsBWNW9ewR26Jc", "spine": "3.6.52", "width": 492, "height": 560, "images": "" },
+"skeleton": { "hash": "R2pTJ8OUhigOWn0Jl0JNLe5TGnY", "spine": "3.6.52", "width": 492, "height": 560, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 74.5 },
@@ -363,6 +363,49 @@
 		},
 		"waist top": {
 			"waist top": { "x": 5, "rotation": -90, "width": 19, "height": 15 }
+		}
+	},
+	"nude (w/shoes)": {
+		"left lower sock": {
+			"left lower sock": { "x": 19.5, "rotation": 90, "width": 11, "height": 24 }
+		},
+		"left shoe": {
+			"left shoe": { "x": 7.5, "rotation": -270, "width": 9, "height": 16 }
+		},
+		"left sock foot": {
+			"left sock foot": { "x": 6.5, "rotation": -270, "width": 9, "height": 18 }
+		},
+		"right lower sock": {
+			"right lower sock": { "x": 19.5, "rotation": 90, "width": 11, "height": 24 }
+		},
+		"right shoe": {
+			"right shoe": { "x": 7.5, "rotation": -270, "width": 9, "height": 16 }
+		},
+		"right sock foot": {
+			"right sock foot": { "x": 6.5, "rotation": -270, "width": 9, "height": 18 }
+		}
+	},
+	"topless (w/shoes)": {
+		"left lower sock": {
+			"left lower sock": { "x": 19.5, "rotation": 90, "width": 11, "height": 24 }
+		},
+		"left shoe": {
+			"left shoe": { "x": 7.5, "rotation": -270, "width": 9, "height": 16 }
+		},
+		"left sock foot": {
+			"left sock foot": { "x": 6.5, "rotation": -270, "width": 9, "height": 18 }
+		},
+		"right lower sock": {
+			"right lower sock": { "x": 19.5, "rotation": 90, "width": 11, "height": 24 }
+		},
+		"right shoe": {
+			"right shoe": { "x": 7.5, "rotation": -270, "width": 9, "height": 16 }
+		},
+		"right sock foot": {
+			"right sock foot": { "x": 6.5, "rotation": -270, "width": 9, "height": 18 }
+		},
+		"skirt pelvis": {
+			"skirt pelvis": { "name": "panties", "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
 		}
 	},
 	"underwear (barefoot)": {

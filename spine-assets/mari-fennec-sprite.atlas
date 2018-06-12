@@ -13,7 +13,7 @@ bangs
   index: -1
 blush
   rotate: false
-  xy: 171, 2
+  xy: 111, 41
   size: 19, 2
   orig: 19, 2
   offset: 0, 0
@@ -34,7 +34,7 @@ chest top
   index: -1
 eye whites
   rotate: false
-  xy: 220, 30
+  xy: 169, 25
   size: 17, 7
   orig: 17, 7
   offset: 0, 0
@@ -62,63 +62,63 @@ left ear
   index: -1
 left eyelid (angry)
   rotate: false
-  xy: 234, 21
+  xy: 394, 34
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 left eyelid (closed)
   rotate: false
-  xy: 244, 21
+  xy: 404, 34
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 left eyelid (determined)
-  rotate: true
-  xy: 264, 20
+  rotate: false
+  xy: 444, 34
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 left eyelid (half-open)
   rotate: false
-  xy: 254, 21
+  xy: 414, 34
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 left eyelid (happy)
   rotate: false
-  xy: 286, 33
+  xy: 424, 34
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 left eyelid (open)
   rotate: false
-  xy: 272, 18
+  xy: 258, 22
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 left eyelid (wide)
   rotate: true
-  xy: 326, 32
+  xy: 250, 16
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 left foot
   rotate: true
-  xy: 117, 16
+  xy: 149, 34
   size: 11, 19
   orig: 11, 19
   offset: 0, 0
   index: -1
 right foot
   rotate: true
-  xy: 117, 16
+  xy: 149, 34
   size: 11, 19
   orig: 11, 19
   offset: 0, 0
@@ -132,14 +132,14 @@ left hand (down)
   index: -1
 left hand (grip in)
   rotate: false
-  xy: 103, 2
+  xy: 78, 2
   size: 15, 12
   orig: 15, 12
   offset: 0, 0
   index: -1
 left hand (grip out)
   rotate: false
-  xy: 120, 2
+  xy: 95, 2
   size: 15, 12
   orig: 15, 12
   offset: 0, 0
@@ -167,7 +167,7 @@ left hand (up)
   index: -1
 left lower arm
   rotate: false
-  xy: 220, 39
+  xy: 254, 39
   size: 19, 8
   orig: 19, 8
   offset: 0, 0
@@ -201,22 +201,22 @@ right lower sock
   offset: 0, 0
   index: -1
 left pupil (normal)
-  rotate: false
-  xy: 364, 36
+  rotate: true
+  xy: 268, 14
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 left pupil (tiny)
-  rotate: false
-  xy: 370, 36
+  rotate: true
+  xy: 309, 25
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 left shoe
-  rotate: true
-  xy: 159, 16
+  rotate: false
+  xy: 324, 31
   size: 11, 9
   orig: 11, 9
   offset: 0, 0
@@ -237,14 +237,14 @@ right shorts leg
   index: -1
 left sock foot
   rotate: true
-  xy: 138, 16
+  xy: 170, 34
   size: 11, 19
   orig: 11, 19
   offset: 0, 0
   index: -1
 right sock foot
   rotate: true
-  xy: 138, 16
+  xy: 170, 34
   size: 11, 19
   orig: 11, 19
   offset: 0, 0
@@ -271,45 +271,45 @@ right upper leg
   offset: 0, 0
   index: -1
 left upper sock
-  rotate: true
-  xy: 205, 30
+  rotate: false
+  xy: 233, 22
   size: 15, 13
   orig: 15, 13
   offset: 0, 0
   index: -1
 right upper sock
-  rotate: true
-  xy: 205, 30
+  rotate: false
+  xy: 233, 22
   size: 15, 13
   orig: 15, 13
   offset: 0, 0
   index: -1
 lower lip (grin)
   rotate: false
-  xy: 239, 30
+  xy: 361, 34
   size: 9, 7
   orig: 9, 7
   offset: 0, 0
   index: -1
 lower lip (open)
   rotate: false
-  xy: 223, 21
+  xy: 372, 34
   size: 9, 7
   orig: 9, 7
   offset: 0, 0
   index: -1
 lower neck
   rotate: false
-  xy: 212, 19
+  xy: 350, 32
   size: 9, 9
   orig: 9, 9
   offset: 0, 0
   index: -1
 panties
-  rotate: false
-  xy: 78, 2
-  size: 23, 12
-  orig: 23, 12
+  rotate: true
+  xy: 133, 22
+  size: 21, 13
+  orig: 21, 13
   offset: 0, 0
   index: -1
 pelvis
@@ -320,8 +320,8 @@ pelvis
   offset: 0, 0
   index: -1
 pelvis top
-  rotate: false
-  xy: 193, 18
+  rotate: true
+  xy: 135, 3
   size: 17, 10
   orig: 17, 10
   offset: 0, 0
@@ -335,133 +335,133 @@ right ear
   index: -1
 right eyebrow
   rotate: false
-  xy: 192, 2
+  xy: 43, 3
   size: 5, 2
   orig: 5, 2
   offset: 0, 0
   index: -1
 right eyelid (angry)
   rotate: false
-  xy: 296, 33
+  xy: 434, 34
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 right eyelid (closed)
   rotate: false
-  xy: 306, 33
+  xy: 258, 30
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 right eyelid (determined)
   rotate: false
-  xy: 334, 35
+  xy: 268, 20
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 right eyelid (half-open)
   rotate: false
-  xy: 316, 33
+  xy: 278, 19
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 right eyelid (happy)
   rotate: false
-  xy: 272, 26
+  xy: 288, 19
   size: 8, 7
   orig: 8, 7
   offset: 0, 0
   index: -1
 right eyelid (open)
   rotate: false
-  xy: 344, 35
+  xy: 258, 14
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 right eyelid (wide)
   rotate: false
-  xy: 354, 35
+  xy: 298, 20
   size: 8, 6
   orig: 8, 6
   offset: 0, 0
   index: -1
 right hand (down)
   rotate: false
-  xy: 170, 18
+  xy: 454, 36
   size: 21, 10
   orig: 21, 10
   offset: 0, 0
   index: -1
 right hand (grip in)
   rotate: false
-  xy: 137, 2
+  xy: 275, 28
   size: 15, 12
   orig: 15, 12
   offset: 0, 0
   index: -1
 right hand (grip out)
   rotate: false
-  xy: 154, 2
+  xy: 292, 28
   size: 15, 12
   orig: 15, 12
   offset: 0, 0
   index: -1
 right hand (in)
   rotate: false
-  xy: 117, 29
+  xy: 112, 2
   size: 21, 14
   orig: 21, 14
   offset: 0, 0
   index: -1
 right hand (out)
-  rotate: false
-  xy: 140, 29
+  rotate: true
+  xy: 117, 18
   size: 21, 14
   orig: 21, 14
   offset: 0, 0
   index: -1
 right hand (up)
   rotate: false
-  xy: 171, 6
+  xy: 477, 36
   size: 21, 10
   orig: 21, 10
   offset: 0, 0
   index: -1
 right lower arm
   rotate: false
-  xy: 241, 39
+  xy: 148, 24
   size: 19, 8
   orig: 19, 8
   offset: 0, 0
   index: -1
 right pupil (normal)
-  rotate: false
-  xy: 376, 36
+  rotate: true
+  xy: 316, 25
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 right pupil (tiny)
-  rotate: false
-  xy: 382, 36
+  rotate: true
+  xy: 323, 25
   size: 4, 5
   orig: 4, 5
   offset: 0, 0
   index: -1
 right shoe
   rotate: false
-  xy: 262, 38
+  xy: 337, 32
   size: 11, 9
   orig: 11, 9
   offset: 0, 0
   index: -1
 right upper arm
-  rotate: false
-  xy: 454, 36
+  rotate: true
+  xy: 500, 18
   size: 21, 10
   orig: 21, 10
   offset: 0, 0
@@ -482,7 +482,7 @@ tail
   index: -1
 top collar
   rotate: false
-  xy: 194, 7
+  xy: 309, 31
   size: 13, 9
   orig: 13, 9
   offset: 0, 0
@@ -496,7 +496,7 @@ torso
   index: -1
 torso top
   rotate: false
-  xy: 477, 36
+  xy: 233, 37
   size: 19, 10
   orig: 19, 10
   offset: 0, 0
@@ -516,36 +516,36 @@ upper lip (frown)
   offset: 0, 0
   index: -1
 upper lip (neutral)
-  rotate: false
-  xy: 261, 30
+  rotate: true
+  xy: 250, 26
   size: 9, 6
   orig: 9, 6
   offset: 0, 0
   index: -1
 upper lip (smile)
-  rotate: false
-  xy: 275, 35
+  rotate: true
+  xy: 268, 28
   size: 9, 5
   orig: 9, 5
   offset: 0, 0
   index: -1
 upper neck
   rotate: false
-  xy: 250, 30
+  xy: 383, 34
   size: 9, 7
   orig: 9, 7
   offset: 0, 0
   index: -1
 waist
   rotate: false
-  xy: 163, 30
+  xy: 191, 30
   size: 19, 15
   orig: 19, 15
   offset: 0, 0
   index: -1
 waist top
   rotate: false
-  xy: 184, 30
+  xy: 212, 32
   size: 19, 15
   orig: 19, 15
   offset: 0, 0

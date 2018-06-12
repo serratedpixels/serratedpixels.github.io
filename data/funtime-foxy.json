@@ -51,6 +51,16 @@
         {
             "name": "full outfit",
             "label": "Full Outfit"
+        },
+        {
+            "name": "topless",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [

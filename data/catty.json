@@ -49,6 +49,16 @@
         {
             "name": "underwear + stockings",
             "label": "Underwear"
+        },
+        {
+            "name": "topless + stockings",
+            "label": "Topless Underwear",
+            "secret": true
+        },
+        {
+            "name": "nude + stockings",
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [

@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "MSC0AWD/WRC7ewsyxnDoz9lLkqU", "spine": "3.6.52", "width": 492, "height": 604, "images": "" },
+"skeleton": { "hash": "eBbfQegiN+W9qldJ4HXjr0PYspQ", "spine": "3.6.52", "width": 492, "height": 604, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 2, "rotation": -180, "x": 73 },
@@ -323,7 +323,7 @@
 			"left upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
 		},
 		"panties": {
-			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+			"panties": { "x": 3, "rotation": 90, "width": 21, "height": 13 }
 		},
 		"pelvis top": {
 			"pelvis top": { "x": -4.5, "rotation": 90, "width": 17, "height": 10 }
@@ -376,7 +376,7 @@
 			"left upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
 		},
 		"panties": {
-			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+			"panties": { "x": 3.5, "rotation": 90, "width": 21, "height": 13 }
 		},
 		"pelvis top": {
 			"pelvis top": { "x": -4.5, "rotation": 90, "width": 17, "height": 10 }
@@ -432,6 +432,29 @@
 			"right upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
 		}
 	},
+	"topless underwear": {
+		"left lower sock": {
+			"left lower sock": { "x": 12.5, "rotation": 90, "width": 13, "height": 30 }
+		},
+		"left sock foot": {
+			"left sock foot": { "x": 7, "rotation": -270, "width": 11, "height": 19 }
+		},
+		"left upper sock": {
+			"left upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
+		},
+		"panties": {
+			"panties": { "x": 3.5, "rotation": 90, "width": 21, "height": 13 }
+		},
+		"right lower sock": {
+			"right lower sock": { "x": 12.5, "rotation": 90, "width": 13, "height": 30 }
+		},
+		"right sock foot": {
+			"right sock foot": { "x": 7, "rotation": -270, "width": 11, "height": 19 }
+		},
+		"right upper sock": {
+			"right upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
+		}
+	},
 	"underwear": {
 		"left lower sock": {
 			"left lower sock": { "x": 12.5, "rotation": 90, "width": 13, "height": 30 }
@@ -443,7 +466,7 @@
 			"left upper sock": { "x": 22, "rotation": 90, "width": 15, "height": 13 }
 		},
 		"panties": {
-			"panties": { "x": 3.5, "rotation": 90, "width": 23, "height": 12 }
+			"panties": { "x": 3.5, "rotation": 90, "width": 21, "height": 13 }
 		},
 		"right lower sock": {
 			"right lower sock": { "x": 12.5, "rotation": 90, "width": 13, "height": 30 }

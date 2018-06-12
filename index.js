@@ -5,6 +5,7 @@ var stage = new PIXI.Container();
 var ticker = new PIXI.ticker.Ticker();
 var router = null;
 var secret = false;
+var secretButton = false;
 
 function init(){
     var app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight, autoResize: true, resolution: devicePixelRatio});
@@ -24,7 +25,7 @@ function init(){
     resize();
 
     function route_puppet(name){
-      $.getJSON(name+".json",load_puppet)
+      $.getJSON("data/" + name + ".json",load_puppet)
       .fail(function(){
         alert("No puppet by the name \"" + name + "\" exists...yet!");
         router.setRoute("/");
@@ -52,6 +53,18 @@ function init(){
 
     app.start();
 
+    document.addEventListener('keydown', function(key){
+        if(key.keyCode == 83){
+            secretButton = true;
+        }
+    });
+
+    document.addEventListener('keyup', function(key){
+        if(key.keyCode == 83){
+            secretButton = false;
+        }
+    });
+
     $.getJSON("index.json", function(data){
         indexData = data.data;
         router.init("/");
@@ -67,7 +80,11 @@ function index(){
     function setButton(item){
         var data = item.data;
         return function(){
-            router.setRoute(data);
+            if(secretButton){
+                router.setRoute("secret/" + data);
+            }else{
+                router.setRoute(data);
+            }
         }
     }
 

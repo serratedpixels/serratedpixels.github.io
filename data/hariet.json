@@ -53,6 +53,16 @@
         {
             "name": "lingerie",
             "label": "Underwear"
+        },
+        {
+            "name": "panties",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [

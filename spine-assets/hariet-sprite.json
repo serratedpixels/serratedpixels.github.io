@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "dXSuFVyu4lUpYclCfxR/9sYgvQw", "spine": "3.6.52", "width": 492.04, "height": 572.01, "images": "" },
+"skeleton": { "hash": "IxHH2axyBmGkFGjKg2VpCzFXDzw", "spine": "3.6.52", "width": 492.04, "height": 572.01, "images": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "head center", "parent": "root", "x": 118 },
@@ -510,6 +510,7 @@
 			"panties": { "x": -3, "rotation": -90, "width": 21, "height": 13 }
 		}
 	},
+	"nude": {},
 	"panties": {
 		"panties": {
 			"panties": { "x": -3, "rotation": -90, "width": 21, "height": 13 }

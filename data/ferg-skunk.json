@@ -15,6 +15,20 @@
         {
             "name": "dress (w/shoes)",
             "label": "Full Outfit"
+        },
+        {
+            "name": "underwear (w/shoes)",
+            "label": "Underwear"
+        },
+        {
+            "name": "topless (w/shoes)",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "nude (w/shoes)",
+            "label": "Nude",
+            "secret": true
         }
     ],
     "sequences": [
