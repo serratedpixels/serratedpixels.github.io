@@ -35,7 +35,8 @@
         },
         {
             "name": "topless underwear",
-            "label": "Topless Underwear"
+            "label": "Topless Underwear",
+            "secret": true
         },
         {
             "name": "nude",
