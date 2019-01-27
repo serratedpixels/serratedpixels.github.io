@@ -37,6 +37,11 @@
             "loop": true
         },
         {
+            "name": "sexy dance f",
+            "label": "Half Dance",
+            "loop": true
+        },
+        {
             "name": "head pop",
             "label": "Head Pop",
             "track": 1
