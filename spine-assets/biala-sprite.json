@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "4y0m22WY/nCtuBPAwy0zkxt3jHk", "spine": "3.7.87", "width": 544.59, "height": 672, "images": "", "audio": "" },
+"skeleton": { "hash": "UHWEG+vyl7IkoM8vKw7wx/yYdhc", "spine": "3.7.87", "width": 544.59, "height": 672, "images": "", "audio": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 74.5 },
@@ -2485,7 +2485,7 @@
 		"slots": {
 			"left eyelid": {
 				"attachment": [
-					{ "time": 0.3333, "name": "left eyelid (wide)" },
+					{ "time": 0, "name": "left eyelid (wide)" },
 					{ "time": 1.5, "name": "left eyelid (half-open)" },
 					{ "time": 1.5667, "name": "left eyelid (closed)" },
 					{ "time": 1.6333, "name": "left eyelid (half-open)" },
@@ -2497,18 +2497,17 @@
 			},
 			"left pupil": {
 				"attachment": [
-					{ "time": 0.3333, "name": "left pupil (tiny)" }
+					{ "time": 0, "name": "left pupil (tiny)" }
 				]
 			},
 			"lower lip": {
 				"attachment": [
-					{ "time": 0.1667, "name": "lower lip (open small)" },
-					{ "time": 0.3333, "name": "lower lip (open wide)" }
+					{ "time": 0, "name": "lower lip (open wide)" }
 				]
 			},
 			"right eyelid": {
 				"attachment": [
-					{ "time": 0.3333, "name": "right eyelid (wide)" },
+					{ "time": 0, "name": "right eyelid (wide)" },
 					{ "time": 1.5, "name": "right eyelid (half-open)" },
 					{ "time": 1.5667, "name": "right eyelid (closed)" },
 					{ "time": 1.6333, "name": "right eyelid (half-open)" },
@@ -2520,12 +2519,12 @@
 			},
 			"right pupil": {
 				"attachment": [
-					{ "time": 0.3333, "name": "right pupil (tiny)" }
+					{ "time": 0, "name": "right pupil (tiny)" }
 				]
 			},
 			"upper lip": {
 				"attachment": [
-					{ "time": 0.1667, "name": "upper lip (neutral)" }
+					{ "time": 0, "name": "upper lip (neutral)" }
 				]
 			}
 		},
