@@ -1,0 +1,75 @@
+{
+    "name": "biala",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default"
+        },
+        {
+            "name": "wand salute",
+            "label": "Hello, There!"
+        },
+        {
+            "name": "head trick",
+            "label": "Head Trick"
+        },
+        {
+            "name": "dance",
+            "label": "Dance",
+            "loop": true
+        },
+        {
+            "name": "holding head",
+            "label": "Head Holding"
+        },
+        {
+            "name": "head pop",
+            "label": "Head Pop",
+            "track": 1
+        },
+        {
+            "name": "beheaded",
+            "label": "Headless",
+            "track": 1
+        },
+        {
+            "name": "bisected",
+            "label": "In Half",
+            "track": 1
+        },
+        {
+            "name": "collapse",
+            "label": "",
+            "track": 2,
+            "secret": true
+        },
+        {
+            "name": "dying",
+            "label": "",
+            "track": 3,
+            "secret": true
+        }
+    ],
+    "skins": [
+        {
+            "name": "sorceress",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "underwear",
+            "label": "Panties",
+            "secret": true
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

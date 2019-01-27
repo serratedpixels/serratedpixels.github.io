@@ -2,6 +2,17 @@
     "data": [
         {
             "type": "label",
+            "name": "Original Characters",
+            "color": "0xFFFFFF"
+        },
+        {
+            "type": "button",
+            "name": "Biala the Sorceress",
+            "data": "biala",
+            "color": "0x700025"
+        },
+        {
+            "type": "label",
             "name": "Character Requests",
             "color": "0xFFFFFF"
         },
