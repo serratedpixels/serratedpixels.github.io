@@ -874,28 +874,28 @@ underwear top
   index: -1
 upper lip (frown)
   rotate: false
-  xy: 815, 39
+  xy: 486, 2
   size: 17, 9
   orig: 17, 9
   offset: 0, 0
   index: -1
 upper lip (smile)
   rotate: false
-  xy: 834, 39
+  xy: 815, 39
   size: 17, 9
   orig: 17, 9
   offset: 0, 0
   index: -1
 upper lip-s (frown)
   rotate: false
-  xy: 853, 39
+  xy: 834, 39
   size: 17, 9
   orig: 17, 9
   offset: 0, 0
   index: -1
 upper lip-s (smile)
   rotate: false
-  xy: 486, 2
+  xy: 853, 39
   size: 17, 9
   orig: 17, 9
   offset: 0, 0

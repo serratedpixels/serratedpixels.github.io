@@ -38,6 +38,10 @@
             "loop": true
         },
         {
+            "name": "waist rip",
+            "label": "Who Needs 'Em?"
+        },
+        {
             "name": "beheaded",
             "label": "Headless",
             "track": 1
