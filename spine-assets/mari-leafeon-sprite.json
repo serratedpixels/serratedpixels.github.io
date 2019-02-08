@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "c/M54nm9w61eKOmKN+0J3XwfBg0", "spine": "3.6.52", "width": 492, "height": 628, "images": "" },
+"skeleton": { "hash": "KfwZgN/3SmXNJGIhy0HJ9kDmnrw", "spine": "3.7.88", "width": 492, "height": 628, "images": "", "audio": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "bottom half", "parent": "root", "length": 4, "rotation": -180, "x": 77.5 },
@@ -17,28 +17,28 @@
 	{ "name": "head", "parent": "head center", "length": 10, "x": -3.5 },
 	{ "name": "hair sprig", "parent": "head", "length": 10, "x": 15.5 },
 	{ "name": "head handle", "parent": "root", "x": 123.5, "color": "abe323ff" },
-	{ "name": "left arm", "parent": "top half", "length": 16, "rotation": -90, "x": 12, "y": -10 },
+	{ "name": "left upper arm", "parent": "top half", "length": 16, "rotation": -90, "x": 12, "y": -10 },
 	{ "name": "left ear", "parent": "head", "length": 18, "rotation": -45, "x": 14.5, "y": -9 },
 	{ "name": "left leg", "parent": "bottom half", "length": 24, "x": 5, "y": 8 },
 	{ "name": "severed left leg", "parent": "left leg", "x": 36.5 },
 	{ "name": "left upper leg", "parent": "severed left leg", "length": 24, "x": -36.5 },
 	{ "name": "left lower leg", "parent": "left upper leg", "length": 30, "x": 24 },
 	{ "name": "left foot", "parent": "left lower leg", "length": 15.75, "rotation": 360, "x": 30 },
-	{ "name": "severed left arm", "parent": "left arm", "rotation": -180, "x": 22 },
-	{ "name": "left upper arm", "parent": "severed left arm", "length": 16, "rotation": 180, "x": 22 },
-	{ "name": "left lower arm", "parent": "left upper arm", "length": 16, "x": 16 },
+	{ "name": "severed left arm", "parent": "left upper arm", "rotation": -180, "x": 22 },
+	{ "name": "left arm", "parent": "severed left arm", "length": 16, "rotation": 180, "x": 22 },
+	{ "name": "left lower arm", "parent": "left arm", "length": 16, "x": 16 },
 	{ "name": "left hand", "parent": "left lower arm", "length": 15.75, "x": 16 },
 	{ "name": "left pupil", "parent": "head", "rotation": -180, "x": 5.47, "y": -5 },
-	{ "name": "right arm", "parent": "top half", "length": 16, "rotation": -270, "x": 12, "y": 10 },
+	{ "name": "right upper arm", "parent": "top half", "length": 16, "rotation": -270, "x": 12, "y": 10 },
 	{ "name": "right ear", "parent": "head", "length": 18, "rotation": 35, "x": 14.5, "y": 9 },
 	{ "name": "right leg", "parent": "bottom half", "length": 24, "x": 5, "y": -8 },
 	{ "name": "severed right leg", "parent": "right leg", "x": 36.5 },
 	{ "name": "right upper leg", "parent": "severed right leg", "length": 24, "x": -36.5 },
 	{ "name": "right lower leg", "parent": "right upper leg", "length": 30, "x": 24 },
 	{ "name": "right foot", "parent": "right lower leg", "length": 15.75, "rotation": 360, "x": 30 },
-	{ "name": "right severed arm", "parent": "right arm", "x": 22 },
-	{ "name": "right upper arm", "parent": "right severed arm", "length": 16, "x": -22 },
-	{ "name": "right lower arm", "parent": "right upper arm", "length": 16, "x": 16 },
+	{ "name": "right severed arm", "parent": "right upper arm", "x": 22 },
+	{ "name": "right arm", "parent": "right severed arm", "length": 16, "x": -22 },
+	{ "name": "right lower arm", "parent": "right arm", "length": 16, "x": 16 },
 	{ "name": "right hand", "parent": "right lower arm", "length": 8.06, "rotation": 360, "x": 16 },
 	{ "name": "right pupil", "parent": "head", "rotation": -180, "x": 5.5, "y": 5 },
 	{ "name": "severed left arm handle", "parent": "root", "rotation": -270, "x": 105.5, "y": -32, "color": "abe323ff" },
@@ -82,14 +82,14 @@
 	{ "name": "left lower arm", "bone": "left lower arm", "attachment": "left lower arm" },
 	{ "name": "left lower glove", "bone": "left lower arm", "attachment": "left lower glove" },
 	{ "name": "left gauntlet", "bone": "left lower arm", "attachment": "left gauntlet" },
-	{ "name": "left upper arm stump", "bone": "left upper arm", "attachment": "left upper arm stump" },
-	{ "name": "left upper arm", "bone": "left arm", "attachment": "left upper arm" },
+	{ "name": "left upper arm stump", "bone": "left arm", "attachment": "left upper arm stump" },
+	{ "name": "left upper arm", "bone": "left upper arm", "attachment": "left upper arm" },
 	{ "name": "right hand", "bone": "right hand", "attachment": "right hand (down)" },
 	{ "name": "right lower arm", "bone": "right lower arm", "attachment": "right lower arm" },
 	{ "name": "right lower glove", "bone": "right lower arm", "attachment": "right lower glove" },
 	{ "name": "right gauntlet", "bone": "right lower arm", "attachment": "right gauntlet" },
-	{ "name": "right upper arm stump", "bone": "right upper arm", "attachment": "right upper arm stump" },
-	{ "name": "right upper arm", "bone": "right arm", "attachment": "right upper arm" },
+	{ "name": "right upper arm stump", "bone": "right arm", "attachment": "right upper arm stump" },
+	{ "name": "right upper arm", "bone": "right upper arm", "attachment": "right upper arm" },
 	{ "name": "scarf back", "bone": "top half", "attachment": "scarf back" },
 	{ "name": "torso", "bone": "top half", "attachment": "torso" },
 	{ "name": "torso top", "bone": "top half", "attachment": "torso top" },
@@ -705,7 +705,7 @@
 					{ "time": 0, "x": 0, "y": 0 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 331.59 }
 				]
@@ -720,7 +720,7 @@
 					{ "time": 0, "angle": -375.52 }
 				]
 			},
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 0.52 }
 				]
@@ -896,7 +896,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -58.14, "curve": "stepped" },
 					{ "time": 0.5, "angle": -58.14, "curve": "stepped" },
@@ -918,7 +918,7 @@
 					{ "time": 2.1667, "angle": 26.37 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 393.68, "curve": "stepped" },
 					{ "time": 0.5, "angle": 393.68 },
@@ -1090,7 +1090,7 @@
 					{ "time": 0.7667, "x": 0.59, "y": 0.89 }
 				]
 			},
-			"right upper arm": {
+			"right arm": {
 				"rotate": [
 					{ "time": 0.8333, "angle": 0 },
 					{ "time": 1, "angle": 27.12 }
@@ -1267,7 +1267,7 @@
 					{ "time": 2.1667, "x": 1.2, "y": 1.2 }
 				]
 			},
-			"left upper arm": {
+			"left arm": {
 				"rotate": [
 					{ "time": 2.1667, "angle": -348.83 }
 				]
@@ -1459,7 +1459,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -58.14 }
 				]
@@ -1469,7 +1469,7 @@
 					{ "time": 0, "angle": 24.3 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 393.68 }
 				]
@@ -1636,7 +1636,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -58.14, "curve": "stepped" },
 					{ "time": 0.5, "angle": -58.14 }
@@ -1648,7 +1648,7 @@
 					{ "time": 0.5, "angle": 24.3 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 393.68, "curve": "stepped" },
 					{ "time": 0.5, "angle": 393.68 },
@@ -1773,7 +1773,7 @@
 					{ "time": 0.7667, "x": 0.59, "y": 0.89 }
 				]
 			},
-			"right upper arm": {
+			"right arm": {
 				"rotate": [
 					{ "time": 0.8333, "angle": 0 },
 					{ "time": 1, "angle": 27.12 }
@@ -1924,7 +1924,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -32.26, "curve": "stepped" },
 					{ "time": 0.5, "angle": -32.26, "curve": "stepped" },
@@ -1940,7 +1940,7 @@
 					{ "time": 1, "angle": -17 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 385.19, "curve": "stepped" },
 					{ "time": 0.5, "angle": 385.19 },
@@ -2048,7 +2048,7 @@
 					{ "time": 1, "x": -16.87, "y": 0 }
 				]
 			},
-			"right upper arm": {
+			"right arm": {
 				"scale": [
 					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
 					{ "time": 0.5, "x": 0, "y": 0 }
@@ -2311,7 +2311,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -58.14, "curve": "stepped" },
 					{ "time": 0.5, "angle": -58.14 },
@@ -2369,7 +2369,7 @@
 					{ "time": 6, "angle": 115.25 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 393.68, "curve": "stepped" },
 					{ "time": 0.5, "angle": 393.68 },
@@ -2763,7 +2763,7 @@
 			}
 		},
 		"bones": {
-			"left arm": {
+			"left upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": -58.14, "curve": "stepped" },
 					{ "time": 0.5, "angle": -58.14 },
@@ -2798,7 +2798,7 @@
 					{ "time": 3.1667, "x": -0.02, "y": 0.87 }
 				]
 			},
-			"right arm": {
+			"right upper arm": {
 				"rotate": [
 					{ "time": 0, "angle": 393.68, "curve": "stepped" },
 					{ "time": 0.5, "angle": 393.68 },
