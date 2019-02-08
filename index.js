@@ -6,6 +6,8 @@ var ticker = new PIXI.ticker.Ticker();
 var router = null;
 var secret = false;
 var secretButton = false;
+var armless = false;
+var armButton = false;
 
 function init(){
     var app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight, autoResize: true, resolution: devicePixelRatio});
@@ -33,16 +35,32 @@ function init(){
     }
 
     var routes = {
-      '/': index,
-      '/secret': {
-          '/:name': function(name){
-            secret = true;
+        '/': index,
+        '/secret': {
+            '/armless': {
+                '/:name': function(name){
+                    armless = true;
+                    secret = true;
+                    route_puppet(name);
+                }
+            },
+            '/:name': function(name){
+                armless = false;
+                secret = true;
+                route_puppet(name);
+            }
+        },
+        '/armless': {
+            '/:name': function(name){
+                armless = true;
+                secret = false;
+                route_puppet(name);
+            }
+        },
+        '/:name': function(name){
+            armless = false;
+            secret = false;
             route_puppet(name);
-          }
-      },
-      '/:name': function(name){
-          secret = false;
-          route_puppet(name);
         },
     }
 
@@ -65,6 +83,18 @@ function init(){
         }
     });
 
+    document.addEventListener('keydown', function(key){
+        if(key.keyCode == 65){
+            armButton = true;
+        }
+    });
+
+    document.addEventListener('keyup', function(key){
+        if(key.keyCode == 65){
+            armButton = false;
+        }
+    });
+
     $.getJSON("index.json", function(data){
         indexData = data.data;
         router.init("/");
@@ -80,8 +110,12 @@ function index(){
     function setButton(item){
         var data = item.data;
         return function(){
-            if(secretButton){
+            if(secretButton && armButton){
+                router.setRoute("secret/armless/" + data);
+            }else if(secretButton){
                 router.setRoute("secret/" + data);
+            }else if(armButton){
+                router.setRoute("armless/" + data);
             }else{
                 router.setRoute(data);
             }
@@ -111,7 +145,7 @@ function getLength(list){
 function load_puppet(puppet){
     stage.removeChildren();
 
-    newButton("Back", 0xC0C0C0, function(){   
+    newButton("Back", 0xC0C0C0, function(){
         router.setRoute("/");
     }, 16,16);
 
@@ -191,6 +225,14 @@ function load_puppet(puppet){
             if(skin.secret && !secret) continue;
             newButton(skin.label, 0xC0C0C0, setSkin(skin), 16, buttontop);
             buttontop += 32;
+        }
+
+        if(armless){
+            var leftarm = skeleton.findBone("left upper arm");
+            var rightarm = skeleton.findBone("right upper arm");
+            leftarm.scaleX = leftarm.scaleY = 0;
+            rightarm.scaleX = rightarm.scaleY = 0;
+            skeleton.updateWorldTransform();
         }
 
         var data = null;
