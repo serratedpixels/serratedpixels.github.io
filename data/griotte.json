@@ -42,6 +42,16 @@
             "label": "Who Needs 'Em?"
         },
         {
+            "name": "topless dance",
+            "label": "Good For Something",
+            "loop": true
+        },
+        {
+            "name": "half dance",
+            "label": "A Dancer's Legs",
+            "loop": true
+        },
+        {
             "name": "beheaded",
             "label": "Headless",
             "track": 1
