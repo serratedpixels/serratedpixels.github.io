@@ -20,14 +20,14 @@ battle hat
   index: -1
 battle hat (back)
   rotate: false
-  xy: 73, 57
+  xy: 2, 57
   size: 69, 69
   orig: 69, 69
   offset: 0, 0
   index: -1
 battle hat (front)
   rotate: false
-  xy: 2, 57
+  xy: 73, 57
   size: 69, 69
   orig: 69, 69
   offset: 0, 0

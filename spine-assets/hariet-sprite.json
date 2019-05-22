@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "IxHH2axyBmGkFGjKg2VpCzFXDzw", "spine": "3.6.52", "width": 492.04, "height": 572.01, "images": "" },
+"skeleton": { "hash": "gOYiLURKuMFT9GzD5kH3TeVjGgA", "spine": "3.7.93", "width": 492.04, "height": 572.01, "images": "", "audio": "" },
 "bones": [
 	{ "name": "root", "rotation": 90, "scaleX": 4, "scaleY": 4 },
 	{ "name": "head center", "parent": "root", "x": 118 },
@@ -518,6 +518,39 @@
 	}
 },
 "animations": {
+	"beheaded": {
+		"bones": {
+			"head center": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"transform": {
+			"head socket": [
+				{ "time": 0, "rotateMix": 0, "translateMix": 0, "scaleMix": 0, "shearMix": 0 }
+			]
+		}
+	},
+	"bisected": {
+		"bones": {
+			"waist": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"head center": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"transform": {
+			"head socket": [
+				{ "time": 0, "shearMix": 0 }
+			]
+		}
+	},
 	"climax": {
 		"slots": {
 			"left eyelid": {
@@ -2652,11 +2685,11 @@
 			"left arm handle": [
 				{ "time": 0, "bendPositive": false, "curve": "stepped" },
 				{ "time": 1.6333, "bendPositive": false },
-				{ "time": 1.6667, "mix": 0.004, "bendPositive": false },
+				{ "time": 1.6667, "mix": 0.004, "bendPositive": false, "curve": "stepped" },
 				{ "time": 2.5, "mix": 0.004 },
 				{ "time": 2.6667, "curve": "stepped" },
 				{ "time": 2.8333 },
-				{ "time": 2.9333, "mix": 0.004 },
+				{ "time": 2.9333, "mix": 0.004, "curve": "stepped" },
 				{ "time": 3.5, "mix": 0.004, "bendPositive": false },
 				{ "time": 3.6667, "bendPositive": false, "curve": "stepped" },
 				{ "time": 9.6667, "bendPositive": false }
@@ -5019,20 +5052,6 @@
 				]
 			}
 		]
-	},
-	"headless": {
-		"bones": {
-			"head center": {
-				"scale": [
-					{ "time": 0, "x": 0, "y": 0 }
-				]
-			}
-		},
-		"transform": {
-			"head socket": [
-				{ "time": 0, "rotateMix": 0, "translateMix": 0, "scaleMix": 0, "shearMix": 0 }
-			]
-		}
 	},
 	"introduce": {
 		"slots": {
