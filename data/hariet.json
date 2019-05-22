@@ -35,8 +35,13 @@
             "label": "Back on top!"
         },
         {
-            "name": "headless",
-            "label": "Off with my head!",
+            "name": "beheaded",
+            "label": "Headless",
+            "track": 1
+        },
+        {
+            "name": "bisected",
+            "label": "In Half",
             "track": 1
         },
         {

@@ -1,0 +1,60 @@
+{
+    "name": "leune",
+    "animations": [
+        {
+            "name": "default",
+            "label": "Default",
+            "loop": true
+        },
+        {
+            "name": "head rip",
+            "label": "Head Rip",
+            "track": 1
+        },
+        {
+            "name": "half rip",
+            "label": "Half Rip"
+        },
+        {
+            "name": "beheaded",
+            "label": "Headless",
+            "track": 1
+        },
+        {
+            "name": "bisected",
+            "label": "In Half",
+            "track": 1
+        }
+    ],
+    "skins": [
+        {
+            "name": "priestess",
+            "label": "Full Outfit"
+        },
+        {
+            "name": "underwear",
+            "label": "Underwear"
+        },
+        {
+            "name": "topless + skirt",
+            "label": "Topless",
+            "secret": true
+        },
+        {
+            "name": "topless + panties",
+            "label": "Panties",
+            "secret": true
+        },
+        {
+            "name": "nude",
+            "label": "Nude",
+            "secret": true
+        }
+    ],
+    "sequences": [
+        {
+            "sequence": [0],
+            "label": "Default"
+        }
+    ]
+}

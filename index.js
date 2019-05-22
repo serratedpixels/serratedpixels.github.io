@@ -2,7 +2,7 @@ var appwidth = 1280;
 var appheight = 720;
 var indexData = {};
 var stage = new PIXI.Container();
-var ticker = new PIXI.ticker.Ticker();
+var ticker = new PIXI.Ticker();
 var router = null;
 var secret = false;
 var secretButton = false;
@@ -104,7 +104,7 @@ function init(){
 function index(){
     stage.removeChildren();
     ticker.destroy();
-    ticker = new PIXI.ticker.Ticker();
+    ticker = new PIXI.Ticker();
     ticker.start();
 
     function setButton(item){
@@ -149,7 +149,7 @@ function load_puppet(puppet){
         router.setRoute("/");
     }, 16,16);
 
-    var loader = new PIXI.loaders.Loader();
+    var loader = new PIXI.Loader();
 
     loader
     .add('spineCharacter', 'spine-assets/' + puppet.name + '-sprite.json')
@@ -196,7 +196,7 @@ function load_puppet(puppet){
             var thisanim = anim;
             return function() {
                 var track = anim.track || 0;
-                if(track == 0){
+                if(thisanim.name == "default"){
                     for(var i=0;i<4;i++){
                         animation.state.setEmptyAnimation(i,0);
                     }

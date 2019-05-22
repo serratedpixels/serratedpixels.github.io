@@ -12,6 +12,12 @@
             "color": "0x700025"
         },
         {
+            "type": "button",
+            "name": "Leune Leughstafferson",
+            "data": "leune",
+            "color": "0x224014"
+        },
+        {
             "type": "label",
             "name": "Character Requests",
             "color": "0xFFFFFF"

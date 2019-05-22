@@ -1,0 +1,678 @@
+
+leune-sprite.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+leune-head/bangs
+  rotate: false
+  xy: 27, 2
+  size: 23, 11
+  orig: 23, 11
+  offset: 0, 0
+  index: -1
+leune-head/blush
+  rotate: false
+  xy: 75, 39
+  size: 19, 2
+  orig: 19, 2
+  offset: 0, 0
+  index: -1
+leune-head/eye whites
+  rotate: false
+  xy: 164, 17
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+leune-head/face
+  rotate: false
+  xy: 197, 63
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+leune-head/frames
+  rotate: true
+  xy: 265, 45
+  size: 15, 5
+  orig: 15, 5
+  offset: 0, 0
+  index: -1
+leune-head/left ear
+  rotate: true
+  xy: 245, 102
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (angry)
+  rotate: false
+  xy: 265, 37
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (closed)
+  rotate: false
+  xy: 308, 68
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (determined)
+  rotate: false
+  xy: 349, 98
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (half-open)
+  rotate: false
+  xy: 346, 90
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (happy)
+  rotate: true
+  xy: 501, 88
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (open)
+  rotate: false
+  xy: 359, 98
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/left eyelid (wide)
+  rotate: false
+  xy: 318, 68
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+leune-head/left pupil (normal)
+  rotate: false
+  xy: 366, 91
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+leune-head/left pupil (tiny)
+  rotate: false
+  xy: 291, 56
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+leune-head/right pupil (tiny)
+  rotate: false
+  xy: 291, 56
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+leune-head/lenses
+  rotate: true
+  xy: 189, 2
+  size: 13, 3
+  orig: 13, 3
+  offset: 0, 0
+  index: -1
+leune-head/lower lip (grin)
+  rotate: true
+  xy: 501, 113
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+leune-head/lower lip (open)
+  rotate: true
+  xy: 501, 98
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+leune-head/right ear
+  rotate: true
+  xy: 297, 102
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (angry)
+  rotate: false
+  xy: 276, 37
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (closed)
+  rotate: false
+  xy: 328, 67
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (determined)
+  rotate: false
+  xy: 356, 90
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (half-open)
+  rotate: false
+  xy: 350, 82
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (happy)
+  rotate: false
+  xy: 296, 62
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (open)
+  rotate: false
+  xy: 369, 98
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+leune-head/right eyelid (wide)
+  rotate: false
+  xy: 338, 67
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+leune-head/right pupil (normal)
+  rotate: true
+  xy: 350, 77
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+leune-head/tears
+  rotate: false
+  xy: 272, 55
+  size: 17, 4
+  orig: 17, 4
+  offset: 0, 0
+  index: -1
+leune-head/upper lip (frown)
+  rotate: true
+  xy: 169, 2
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+leune-head/upper lip (neutral)
+  rotate: true
+  xy: 179, 2
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+leune-head/upper lip (smile)
+  rotate: false
+  xy: 272, 45
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+leune-head/upper neck
+  rotate: false
+  xy: 248, 36
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/belt
+  rotate: true
+  xy: 226, 58
+  size: 29, 10
+  orig: 29, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/bra
+  rotate: false
+  xy: 245, 94
+  size: 41, 6
+  orig: 41, 6
+  offset: 0, 0
+  index: -1
+leune-sprite/charm
+  rotate: true
+  xy: 489, 92
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/left piercing
+  rotate: true
+  xy: 489, 92
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/right piercing
+  rotate: true
+  xy: 489, 92
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/chest
+  rotate: false
+  xy: 27, 15
+  size: 41, 20
+  orig: 41, 20
+  offset: 0, 0
+  index: -1
+leune-sprite/chest top
+  rotate: false
+  xy: 349, 106
+  size: 41, 20
+  orig: 41, 20
+  offset: 0, 0
+  index: -1
+leune-sprite/collar
+  rotate: true
+  xy: 240, 41
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+leune-sprite/left bracelets
+  rotate: false
+  xy: 187, 26
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/right bracelets
+  rotate: false
+  xy: 187, 26
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/left foot
+  rotate: false
+  xy: 70, 15
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+leune-sprite/right foot
+  rotate: false
+  xy: 70, 15
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (down)
+  rotate: false
+  xy: 126, 15
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (fist in)
+  rotate: true
+  xy: 226, 40
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (fist out)
+  rotate: false
+  xy: 148, 33
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (grip in)
+  rotate: false
+  xy: 148, 2
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (grip out)
+  rotate: true
+  xy: 275, 73
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (in)
+  rotate: false
+  xy: 248, 62
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (out)
+  rotate: true
+  xy: 83, 15
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (point in)
+  rotate: false
+  xy: 52, 2
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (point out)
+  rotate: false
+  xy: 76, 2
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/left hand (up)
+  rotate: false
+  xy: 308, 78
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/left inner bag
+  rotate: false
+  xy: 183, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/left outer bag
+  rotate: false
+  xy: 183, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/right inner bag
+  rotate: false
+  xy: 183, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/right outer bag
+  rotate: false
+  xy: 183, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/left lower arm
+  rotate: false
+  xy: 319, 90
+  size: 25, 10
+  orig: 25, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/left lower leg
+  rotate: true
+  xy: 430, 109
+  size: 17, 38
+  orig: 17, 38
+  offset: 0, 0
+  index: -1
+leune-sprite/right lower leg
+  rotate: true
+  xy: 430, 109
+  size: 17, 38
+  orig: 17, 38
+  offset: 0, 0
+  index: -1
+leune-sprite/left shoe
+  rotate: true
+  xy: 332, 77
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+leune-sprite/right shoe
+  rotate: true
+  xy: 332, 77
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+leune-sprite/left shoe ankle
+  rotate: false
+  xy: 190, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/right shoe ankle
+  rotate: false
+  xy: 190, 17
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+leune-sprite/left shoe straps
+  rotate: true
+  xy: 288, 73
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+leune-sprite/right shoe straps
+  rotate: true
+  xy: 288, 73
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+leune-sprite/left upper arm
+  rotate: true
+  xy: 148, 78
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/left upper leg
+  rotate: true
+  xy: 392, 103
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+leune-sprite/right upper leg
+  rotate: true
+  xy: 392, 103
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+leune-sprite/loincloth
+  rotate: true
+  xy: 197, 40
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+leune-sprite/lower neck
+  rotate: false
+  xy: 248, 49
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/panties
+  rotate: true
+  xy: 148, 47
+  size: 29, 16
+  orig: 29, 16
+  offset: 0, 0
+  index: -1
+leune-sprite/pelvis (attached)
+  rotate: false
+  xy: 470, 101
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+leune-sprite/pelvis (detached)
+  rotate: false
+  xy: 166, 62
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (down)
+  rotate: false
+  xy: 272, 61
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (fist in)
+  rotate: true
+  xy: 150, 15
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (fist out)
+  rotate: true
+  xy: 454, 91
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (grip in)
+  rotate: false
+  xy: 166, 26
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (grip out)
+  rotate: false
+  xy: 468, 88
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (in)
+  rotate: false
+  xy: 99, 27
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (out)
+  rotate: false
+  xy: 123, 27
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (point in)
+  rotate: false
+  xy: 100, 2
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (point out)
+  rotate: false
+  xy: 124, 2
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+leune-sprite/right hand (up)
+  rotate: false
+  xy: 430, 97
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/right lower arm
+  rotate: false
+  xy: 99, 15
+  size: 25, 10
+  orig: 25, 10
+  offset: 0, 0
+  index: -1
+leune-sprite/right upper arm
+  rotate: false
+  xy: 248, 78
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+leune-sprite/skirt back
+  rotate: false
+  xy: 75, 43
+  size: 71, 60
+  orig: 71, 60
+  offset: 0, 0
+  index: -1
+leune-sprite/skirt front
+  rotate: false
+  xy: 2, 37
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1
+leune-sprite/tail
+  rotate: true
+  xy: 164, 89
+  size: 37, 79
+  orig: 37, 79
+  offset: 0, 0
+  index: -1
+leune-sprite/torso
+  rotate: true
+  xy: 2, 2
+  size: 33, 23
+  orig: 33, 23
+  offset: 0, 0
+  index: -1
+leune-sprite/torso top
+  rotate: true
+  xy: 238, 60
+  size: 27, 8
+  orig: 27, 8
+  offset: 0, 0
+  index: -1
+leune-sprite/waist
+  rotate: false
+  xy: 166, 39
+  size: 29, 21
+  orig: 29, 21
+  offset: 0, 0
+  index: -1
+leune-sprite/waist top
+  rotate: false
+  xy: 288, 90
+  size: 29, 10
+  orig: 29, 10
+  offset: 0, 0
+  index: -1
+leune-staff/staff
+  rotate: true
+  xy: 2, 105
+  size: 21, 160
+  orig: 21, 160
+  offset: 0, 0
+  index: -1
