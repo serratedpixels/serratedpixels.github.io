@@ -201,7 +201,7 @@ function load_puppet(puppet){
                         animation.state.setEmptyAnimation(i,0);
                     }
                 }
-                animation.state.addAnimation(track, thisanim.name, thisanim.loop, 0);
+                animation.state.setAnimation(track, thisanim.name, thisanim.loop, 0);
             }
         }
 

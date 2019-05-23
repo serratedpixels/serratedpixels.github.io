@@ -2,7 +2,7 @@
     "name": "funtime-foxy",
     "animations": [
         {
-            "name": "sexy dance b",
+            "name": "default",
             "label": "Sexy Dance",
             "loop": true
         },

@@ -2,7 +2,7 @@
     "name": "ferg-skunk",
     "animations": [
         {
-            "name": "default (head on)",
+            "name": "default",
             "label": "Default"
         },
         {
